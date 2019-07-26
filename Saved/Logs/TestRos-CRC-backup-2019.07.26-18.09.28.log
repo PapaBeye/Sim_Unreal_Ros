@@ -1,0 +1,136 @@
+﻿Log file open, 07/26/19 14:08:51
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Build: ++UE4+Release-4.22-CL-0
+LogInit: Engine Version: 4.22.3-0+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-0+++UE4+Release-4.22
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jul 24 2019 17:38:36
+LogInit: Compiled with Clang: 7.0.1 (tags/RELEASE_701/final)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -Abslog="/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Logs/TestRos-CRC.log" "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Crashes/crashinfo-TestRos-pid-21856-048135DB08D711D2C97386F0840CFC85/"
+LogInit: Base Directory: /media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/papa.beye/.config/Epic/CrashReportClient/Saved/Config/Linux/Engine.ini]
+[2019.07.26-18.08.51:915][  0]LogInit: Unix hardware info:
+[2019.07.26-18.08.51:915][  0]LogInit:  - we are the first instance of this executable
+[2019.07.26-18.08.51:915][  0]LogInit:  - this process' id (pid) is 22098, parent process' id (ppid) is 21856
+[2019.07.26-18.08.51:915][  0]LogInit:  - we are not running under debugger
+[2019.07.26-18.08.51:915][  0]LogInit:  - machine network name is 'z8799'
+[2019.07.26-18.08.51:916][  0]LogInit:  - user name is 'papabeye' (papabeye)
+[2019.07.26-18.08.51:916][  0]LogInit:  - we're logged in locally
+[2019.07.26-18.08.51:916][  0]LogInit:  - we're running with rendering
+[2019.07.26-18.08.51:916][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz' (signature: 0x906E9)
+[2019.07.26-18.08.51:916][  0]LogInit:  - Number of physical cores available for the process: 4
+[2019.07.26-18.08.51:916][  0]LogInit:  - Number of logical cores available for the process: 8
+[2019.07.26-18.08.51:916][  0]LogInit:  - Cache line size: 64
+[2019.07.26-18.08.51:916][  0]LogInit:  - Memory allocator used: binned2
+[2019.07.26-18.08.51:916][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2019.07.26-18.08.51:916][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2019.07.26-18.08.51:916][  0]LogInit: Unix-specific commandline switches:
+[2019.07.26-18.08.51:916][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2019.07.26-18.08.51:916][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2019.07.26-18.08.51:916][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2019.07.26-18.08.51:916][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2019.07.26-18.08.51:916][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2019.07.26-18.08.51:916][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2019.07.26-18.08.51:916][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2019.07.26-18.08.51:916][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2019.07.26-18.08.51:916][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2019.07.26-18.08.51:916][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2019.07.26-18.08.51:916][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2019.07.26-18.08.51:916][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (15981 MB, 16365564 KB, 16758337536 bytes)
+[2019.07.26-18.08.51:916][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2019.07.26-18.08.51:916][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2019.07.26-18.08.51:929][  0]LogAssetRegistry: FAssetRegistry took 0.0000 seconds to start up
+[2019.07.26-18.08.51:929][  0]LogUObjectArray: 1050 objects as part of root set at end of initial load.
+[2019.07.26-18.08.51:929][  0]LogUObjectAllocator: 157600 out of 0 bytes used by permanent object pool.
+[2019.07.26-18.08.51:929][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.26-18.08.51:929][  0]LogInit: Using OS detected language (en-US).
+[2019.07.26-18.08.51:929][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.26-18.08.51:929][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2019.07.26-18.08.51:929][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2019.07.26-18.08.51:935][  0]LogInit: Using OS detected language (en-US).
+[2019.07.26-18.08.51:935][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.26-18.08.51:935][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2019.07.26-18.08.51:935][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2019.07.26-18.08.51:936][  0]LogTextLocalizationManager: Compacting localization data took   0.45ms
+[2019.07.26-18.08.51:936][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000015 seconds
+[2019.07.26-18.08.51:936][  0]CrashReportClientLog: CrashReportClientVersion=1.0
+[2019.07.26-18.08.51:936][  0]CrashReportClientLog: CrashReportReceiver disabled
+[2019.07.26-18.08.51:936][  0]CrashReportClientLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2019.07.26-18.08.51:937][  0]LogInit: Initializing SDL.
+[2019.07.26-18.08.52:110][  0]LogInit: Initialized SDL 2.0.8 revision: 11184 (hg-12121:4358e537000a with EpicExtensions) (compiled against 2.0.8)
+[2019.07.26-18.08.52:110][  0]LogInit: Using SDL video driver 'x11'
+[2019.07.26-18.08.52:125][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.26-18.08.52:125][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.26-18.08.52:132][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.26-18.08.52:132][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2019.07.26-18.08.52:132][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2019.07.26-18.08.52:179][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2019.07.26-18.08.52:303][  0]CrashReportClientLog: Initial state = Unknown UploadState value
+[2019.07.26-18.08.52:303][  0]CrashReportClientLog: Initial state = Unknown UploadState value
+[2019.07.26-18.08.52:319][  0]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.26-18.08.52:319][  0]LogLinux: Scale at X=617.500000, Y=255.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.26-18.08.52:319][  0]LogLinux: Scale at X=992.500000, Y=552.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.26-18.08.52:330][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2019.07.26-18.08.52:355][  0]LogSlate: Took 0.000046 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.26-18.08.52:356][  0]LogSlate: Took 0.000051 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.26-18.08.52:360][  0]LogSlate: Took 0.000048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.26-18.09.27:274][  0]CrashReportClientLog: Got 5 pending files to upload from ''
+[2019.07.26-18.09.27:274][  0]CrashReportClientLog: State change from Ready to SendingFiles
+[2019.07.26-18.09.27:274][  0]CrashReportClientLog: CompressAndSendData have 5 pending files
+[2019.07.26-18.09.27:274][  0]CrashReportClientLog: CompressAndSendData compressing 108 bytes ('/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Crashes/crashinfo-TestRos-pid-21856-048135DB08D711D2C97386F0840CFC85/CrashReportClient.ini')
+[2019.07.26-18.09.27:274][  0]CrashReportClientLog: CompressAndSendData compressing 45198 bytes ('/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Crashes/crashinfo-TestRos-pid-21856-048135DB08D711D2C97386F0840CFC85/TestRos.log')
+[2019.07.26-18.09.27:274][  0]CrashReportClientLog: CompressAndSendData compressing 4 bytes ('/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Crashes/crashinfo-TestRos-pid-21856-048135DB08D711D2C97386F0840CFC85/minidump.dmp')
+[2019.07.26-18.09.27:274][  0]CrashReportClientLog: CompressAndSendData compressing 4827 bytes ('/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Crashes/crashinfo-TestRos-pid-21856-048135DB08D711D2C97386F0840CFC85/Diagnostics.txt')
+[2019.07.26-18.09.27:274][  0]CrashReportClientLog: CompressAndSendData compressing 9892 bytes ('/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Crashes/crashinfo-TestRos-pid-21856-048135DB08D711D2C97386F0840CFC85/CrashContext.runtime-xml')
+[2019.07.26-18.09.27:293][  0]LogInit: Using libcurl 7.48.0-DEV
+[2019.07.26-18.09.27:293][  0]LogInit:  - built for x86_64-unknown-linux-gnu
+[2019.07.26-18.09.27:293][  0]LogInit:  - supports SSL with OpenSSL/1.0.2h
+[2019.07.26-18.09.27:293][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+[2019.07.26-18.09.27:293][  0]LogInit:  - other features:
+[2019.07.26-18.09.27:293][  0]LogInit:      CURL_VERSION_SSL
+[2019.07.26-18.09.27:293][  0]LogInit:      CURL_VERSION_LIBZ
+[2019.07.26-18.09.27:293][  0]LogInit:      CURL_VERSION_IPV6
+[2019.07.26-18.09.27:293][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2019.07.26-18.09.27:293][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2019.07.26-18.09.27:293][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+[2019.07.26-18.09.27:293][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2019.07.26-18.09.27:293][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+[2019.07.26-18.09.27:293][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2019.07.26-18.09.27:293][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2019.07.26-18.09.27:293][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+[2019.07.26-18.09.27:293][  0]LogInit:  - LocalHostAddr = Default
+[2019.07.26-18.09.27:293][  0]LogInit:  - BufferSize = 65536
+[2019.07.26-18.09.27:293][  0]CrashReportClientLog: Sending HTTP request: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=CrashReporter&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&AppEnvironment=Release&UploadType=crashreports&UserID=f8447bce7ffb4f718d92de4f0a35fd64-000003eb%7C%7Cf8447bce7ffb4f718d92de4f0a35fd64
+[2019.07.26-18.09.27:340][  0]LogHttp: Warning: 0x7f2cfbe3d580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.26-18.09.27:340][  0]LogHttp: Warning: 0x7f2cfbe3d580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.26-18.09.27:340][  0]LogHttp: Warning: 0x7f2cfbe3d580: libcurl info message cache 1 (Closing connection 0)
+[2019.07.26-18.09.27:340][  0]CrashReportClientLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=0
+[2019.07.26-18.09.27:340][  0]CrashReportClientLog: Warning: File upload failed to data router
+[2019.07.26-18.09.27:340][  0]CrashReportClientLog: State change from SendingFiles to Cancelled
+[2019.07.26-18.09.28:276][  0]LogCore: FUnixPlatformMisc::RequestExit(0)
+[2019.07.26-18.09.28:276][  0]LogGenericPlatformMisc: FPlatformMisc::RequestExit(0)
+[2019.07.26-18.09.28:309][  0]LogSlate: Request Window 'Unreal Engine 4 Crash Reporter' being destroyed
+[2019.07.26-18.09.28:309][  0]LogSlate: Window 'Unreal Engine 4 Crash Reporter' being destroyed
+[2019.07.26-18.09.28:326][  0]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.26-18.09.28:326][  0]LogExit: Preparing to exit.
+[2019.07.26-18.09.28:327][  0]LogExit: Object subsystem successfully closed.
+[2019.07.26-18.09.28:331][  0]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2019.07.26-18.09.28:363][  0]LogModuleManager: Shutting down and abandoning module SSL (15)
+[2019.07.26-18.09.28:363][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (12)
+[2019.07.26-18.09.28:363][  0]LogModuleManager: Shutting down and abandoning module InputCore (10)
+[2019.07.26-18.09.28:364][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (8)
+[2019.07.26-18.09.28:364][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.07.26-18.09.28:364][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.07.26-18.09.28:364][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.07.26-18.09.28:364][  0]LogExit: Exiting.
+[2019.07.26-18.09.28:364][  0]LogInit: Tearing down SDL.
+[2019.07.26-18.09.28:375][  0]Log file closed, 07/26/19 14:09:28

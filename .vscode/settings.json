@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/.vscode": true,
+		"/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Content": true,
+		"/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/DerivedDataCache": true,
+		"/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Intermediate": true,
+		"/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved": true
+	}
+}

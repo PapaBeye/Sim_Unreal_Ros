@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "TestRos (Debug)",
+			"request": "launch",
+			"preLaunchTask": "TestRos Linux Debug Build",
+			"program": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Binaries/Linux/TestRos-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "TestRos (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "TestRos Linux DebugGame Build",
+			"program": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Binaries/Linux/TestRos-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "TestRos (Development)",
+			"request": "launch",
+			"preLaunchTask": "TestRos Linux Development Build",
+			"program": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Binaries/Linux/TestRos",
+			"args": [
+			],
+			"cwd": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "TestRos (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "TestRos Linux Shipping Build",
+			"program": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Binaries/Linux/TestRos-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "TestRos (Test)",
+			"request": "launch",
+			"preLaunchTask": "TestRos Linux Test Build",
+			"program": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Binaries/Linux/TestRos-Linux-Test",
+			"args": [
+			],
+			"cwd": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "TestRosEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "TestRosEditor Linux Debug Build",
+			"program": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/TestRos.uproject"
+			],
+			"cwd": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "TestRosEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "TestRosEditor Linux DebugGame Build",
+			"program": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/TestRos.uproject"
+			],
+			"cwd": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "TestRosEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "TestRosEditor Linux Development Build",
+			"program": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/TestRos.uproject"
+			],
+			"cwd": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/TestRos.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine"
+		}
+	]
+}

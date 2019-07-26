@@ -1,0 +1,925 @@
+Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+Not using cached read wrapper
+Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+Stats thread started at 0.054289
+ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+Mounting plugin Paper2D
+Mounting plugin VariantManagerContent
+Mounting plugin DatasmithContent
+Mounting plugin FacialAnimation
+Mounting plugin GameplayTagsEditor
+Mounting plugin DataValidation
+Mounting plugin MobileLauncherProfileWizard
+Mounting plugin AssetManagerEditor
+Mounting plugin MacGraphicsSwitching
+Mounting plugin SpeedTreeImporter
+Mounting plugin MaterialAnalyzer
+Mounting plugin PluginBrowser
+Mounting plugin CryptoKeys
+Mounting plugin AppleImageUtils
+Mounting plugin GeometryCache
+Mounting plugin BackChannel
+Mounting plugin HTML5Networking
+Mounting plugin AppleVision
+Mounting plugin AlembicImporter
+Mounting plugin CharacterAI
+Mounting plugin SkeletalReduction
+Mounting plugin ProxyLODPlugin
+Mounting plugin AISupport
+Mounting plugin NetcodeUnitTest
+Mounting plugin NUTUnrealEngine4
+Mounting plugin LinuxDeviceProfileSelector
+Mounting plugin AndroidMoviePlayer
+Mounting plugin AppleMoviePlayer
+Mounting plugin EditableMesh
+Mounting plugin WebMMoviePlayer
+Mounting plugin PhysXVehicles
+Mounting plugin CableComponent
+Mounting plugin ArchVisCharacter
+Mounting plugin GoogleCloudMessaging
+Mounting plugin AndroidDeviceProfileSelector
+Mounting plugin OculusVR
+Mounting plugin RuntimePhysXCooking
+Mounting plugin IOSDeviceProfileSelector
+Mounting plugin ExampleDeviceProfileSelector
+Mounting plugin CustomMeshComponent
+Mounting plugin ProceduralMeshComponent
+Mounting plugin AudioCapture
+Mounting plugin LocationServicesBPLibrary
+Mounting plugin WindowsMoviePlayer
+Mounting plugin MobilePatchingUtils
+Mounting plugin AndroidPermission
+Mounting plugin SignificanceManager
+Mounting plugin SteamVR
+Mounting plugin Firebase
+Mounting plugin MatineeToLevelSequence
+Mounting plugin LevelSequenceEditor
+Mounting plugin ActorSequence
+Mounting plugin MagicLeapMedia
+Mounting plugin MagicLeap
+Mounting plugin UObjectPlugin
+Mounting plugin AnimationSharing
+Mounting plugin NullSourceCodeAccess
+Mounting plugin KDevelopSourceCodeAccess
+Mounting plugin CLionSourceCodeAccess
+Mounting plugin XCodeSourceCodeAccess
+Mounting plugin PerforceSourceControl
+Mounting plugin GitSourceControl
+Mounting plugin VisualStudioSourceCodeAccess
+Mounting plugin SubversionSourceControl
+Mounting plugin CodeLiteSourceCodeAccess
+Mounting plugin VisualStudioCodeSourceCodeAccess
+Mounting plugin ActorLayerUtilities
+Mounting plugin LightPropagationVolume
+Mounting plugin OnlineSubsystem
+Mounting plugin OnlineSubsystemGooglePlay
+Mounting plugin OnlineSubsystemNull
+Mounting plugin OnlineSubsystemIOS
+Mounting plugin OnlineSubsystemUtils
+Mounting plugin TcpMessaging
+Mounting plugin UdpMessaging
+Mounting plugin LauncherChunkInstaller
+Mounting plugin MediaPlayerEditor
+Mounting plugin WebMMedia
+Mounting plugin ImgMedia
+Mounting plugin LinearTimecode
+Mounting plugin AvfMedia
+Mounting plugin WmfMedia
+Mounting plugin AndroidMedia
+Mounting plugin MediaCompositing
+Mounting plugin ROSIntegration
+Using libcurl 7.48.0-DEV
+ - built for x86_64-unknown-linux-gnu
+ - supports SSL with OpenSSL/1.0.2h
+ - supports HTTP deflate (compression) using libz 1.2.8
+ - other features:
+     CURL_VERSION_SSL
+     CURL_VERSION_LIBZ
+     CURL_VERSION_IPV6
+     CURL_VERSION_ASYNCHDNS
+     CURL_VERSION_LARGEFILE
+     CURL_VERSION_TLSAUTH_SRP
+ CurlRequestOptions (configurable via config and command line):
+ - bVerifyPeer = true  - Libcurl will verify peer certificate
+ - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+ - bDontReuseConnections = false  - Libcurl will reuse connections
+ - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+ - LocalHostAddr = Default
+ - BufferSize = 65536
+Build: ++UE4+Release-4.22-CL-0
+Engine Version: 4.22.3-0+++UE4+Release-4.22
+Compatible Engine Version: 4.22.0-0+++UE4+Release-4.22
+Net CL: 0
+OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: GenericGPUBrand
+Compiled (64-bit): Jul 25 2019 15:43:26
+Compiled with Clang: 7.0.1 (tags/RELEASE_701/final)
+Build Configuration: Development
+Branch Name: ++UE4+Release-4.22
+Command Line: 
+Base Directory: /media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Binaries/Linux/
+Installed Engine Build: 0
+Number of dev versions registered: 23
+  Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+  Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+  Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+  Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+  Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+  Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+  Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+  Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+  Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+  Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+  Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+  Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+  Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+  Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+  Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+  Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+  Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+  Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+  Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+  FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+  Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+  Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+  Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+Object subsystem initialized
+Setting CVar [[con.DebugEarlyDefault:1]]
+Setting CVar [[r.setres:1280x720]]
+Setting CVar [[r.VSync:0]]
+Setting CVar [[r.RHICmdBypass:1]]
+Applying CVar settings from Section [/Script/Engine.RendererSettings] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Engine.ini]
+Setting CVar [[r.GPUCrashDebugging:0]]
+Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Engine.ini]
+Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Engine.ini]
+Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Engine.ini]
+Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+Setting CVar [[gc.FlushStreamingOnGC:0]]
+Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+Setting CVar [[gc.AllowParallelGC:1]]
+Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+Setting CVar [[gc.CreateGCClusters:1]]
+Setting CVar [[gc.MinGCClusterSize:5]]
+Setting CVar [[gc.ActorClusteringEnabled:0]]
+Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Engine.ini]
+Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Engine.ini]
+Initializing SDL.
+Initialized SDL 2.0.8 revision: 11184 (hg-12121:4358e537000a with EpicExtensions) (compiled against 2.0.8)
+Using SDL video driver 'x11'
+Display metrics:
+  PrimaryDisplayWidth: 1920
+  PrimaryDisplayHeight: 1080
+  PrimaryDisplayWorkAreaRect:
+    Left=65, Top=24, Right=1920, Bottom=1080
+  VirtualDisplayRect:
+    Left=65, Top=24, Right=1920, Bottom=1080
+  TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+  ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+  Number of monitors: 1
+    Monitor 0
+      Name: Acer V226HQL 22"
+      ID: display0
+      NativeWidth: 1920
+      NativeHeight: 1080
+      bIsPrimary: true
+Applying CVar settings from Section [ViewDistanceQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.SkeletalMeshLODBias:0]]
+Setting CVar [[r.ViewDistanceScale:1.0]]
+Applying CVar settings from Section [AntiAliasingQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.PostProcessAAQuality:4]]
+Applying CVar settings from Section [ShadowQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.LightFunctionQuality:1]]
+Setting CVar [[r.ShadowQuality:5]]
+Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+Setting CVar [[r.Shadow.MaxResolution:2048]]
+Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+Setting CVar [[r.Shadow.DistanceScale:1.0]]
+Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+Setting CVar [[r.DistanceFieldShadowing:1]]
+Setting CVar [[r.DistanceFieldAO:1]]
+Setting CVar [[r.AOQuality:2]]
+Setting CVar [[r.VolumetricFog:1]]
+Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+Setting CVar [[r.CapsuleShadows:1]]
+Applying CVar settings from Section [PostProcessQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.MotionBlurQuality:4]]
+Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+Setting CVar [[r.AmbientOcclusionLevels:-1]]
+Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+Setting CVar [[r.DepthOfFieldQuality:2]]
+Setting CVar [[r.RenderTargetPoolMin:400]]
+Setting CVar [[r.LensFlareQuality:2]]
+Setting CVar [[r.SceneColorFringeQuality:1]]
+Setting CVar [[r.EyeAdaptationQuality:2]]
+Setting CVar [[r.BloomQuality:5]]
+Setting CVar [[r.FastBlurThreshold:100]]
+Setting CVar [[r.Upscale.Quality:3]]
+Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+Setting CVar [[r.LightShaftQuality:1]]
+Setting CVar [[r.Filter.SizeScale:1]]
+Setting CVar [[r.Tonemapper.Quality:5]]
+Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+Applying CVar settings from Section [TextureQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.Streaming.MipBias:0]]
+Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+Setting CVar [[r.Streaming.Boost:1]]
+Setting CVar [[r.MaxAnisotropy:8]]
+Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+Setting CVar [[r.Streaming.PoolSize:1000]]
+Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+Applying CVar settings from Section [EffectsQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+Setting CVar [[r.RefractionQuality:2]]
+Setting CVar [[r.SSR.Quality:3]]
+Setting CVar [[r.SceneColorFormat:4]]
+Setting CVar [[r.DetailMode:2]]
+Setting CVar [[r.TranslucencyVolumeBlur:1]]
+Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+Setting CVar [[r.SSS.Scale:1]]
+Setting CVar [[r.SSS.SampleSet:2]]
+Setting CVar [[r.SSS.Quality:1]]
+Setting CVar [[r.SSS.HalfRes:1]]
+Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+Setting CVar [[r.ParticleLightQuality:2]]
+Applying CVar settings from Section [FoliageQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[foliage.DensityScale:1.0]]
+Setting CVar [[grass.DensityScale:1.0]]
+Selected Device Profile: [Linux]
+Applying CVar settings loaded from the selected device profile: [Linux]
+Platform has ~ 4 GB [16758337536 / 4294967296 / 16], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+Going up to parent DeviceProfile []
+Applying CVar settings from Section [ViewDistanceQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.SkeletalMeshLODBias:0]]
+Setting CVar [[r.ViewDistanceScale:1.0]]
+Applying CVar settings from Section [AntiAliasingQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.PostProcessAAQuality:4]]
+Applying CVar settings from Section [ShadowQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.LightFunctionQuality:1]]
+Setting CVar [[r.ShadowQuality:5]]
+Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+Setting CVar [[r.Shadow.MaxResolution:2048]]
+Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+Setting CVar [[r.Shadow.DistanceScale:1.0]]
+Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+Setting CVar [[r.DistanceFieldShadowing:1]]
+Setting CVar [[r.DistanceFieldAO:1]]
+Setting CVar [[r.AOQuality:2]]
+Setting CVar [[r.VolumetricFog:1]]
+Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+Setting CVar [[r.CapsuleShadows:1]]
+Applying CVar settings from Section [PostProcessQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.MotionBlurQuality:4]]
+Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+Setting CVar [[r.AmbientOcclusionLevels:-1]]
+Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+Setting CVar [[r.DepthOfFieldQuality:2]]
+Setting CVar [[r.RenderTargetPoolMin:400]]
+Setting CVar [[r.LensFlareQuality:2]]
+Setting CVar [[r.SceneColorFringeQuality:1]]
+Setting CVar [[r.EyeAdaptationQuality:2]]
+Setting CVar [[r.BloomQuality:5]]
+Setting CVar [[r.FastBlurThreshold:100]]
+Setting CVar [[r.Upscale.Quality:3]]
+Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+Setting CVar [[r.LightShaftQuality:1]]
+Setting CVar [[r.Filter.SizeScale:1]]
+Setting CVar [[r.Tonemapper.Quality:5]]
+Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+Applying CVar settings from Section [TextureQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.Streaming.MipBias:0]]
+Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+Setting CVar [[r.Streaming.Boost:1]]
+Setting CVar [[r.MaxAnisotropy:8]]
+Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+Setting CVar [[r.Streaming.PoolSize:1000]]
+Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+Applying CVar settings from Section [EffectsQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+Setting CVar [[r.RefractionQuality:2]]
+Setting CVar [[r.SSR.Quality:3]]
+Setting CVar [[r.SceneColorFormat:4]]
+Setting CVar [[r.DetailMode:2]]
+Setting CVar [[r.TranslucencyVolumeBlur:1]]
+Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+Setting CVar [[r.SSS.Scale:1]]
+Setting CVar [[r.SSS.SampleSet:2]]
+Setting CVar [[r.SSS.Quality:1]]
+Setting CVar [[r.SSS.HalfRes:1]]
+Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+Setting CVar [[r.ParticleLightQuality:2]]
+Applying CVar settings from Section [FoliageQuality@3] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[foliage.DensityScale:1.0]]
+Setting CVar [[grass.DensityScale:1.0]]
+Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+Applying CVar settings from Section [ConsoleVariables] File [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Config/Linux/Engine.ini]
+Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+Unix hardware info:
+ - we are not the first instance of this executable
+ - this process' id (pid) is 22381, parent process' id (ppid) is 1542
+ - we are not running under debugger
+ - machine network name is 'z8799'
+ - user name is 'papabeye' (papabeye)
+ - we're logged in locally
+ - we're running with rendering
+ - CPU: GenuineIntel 'Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz' (signature: 0x906E9)
+ - Number of physical cores available for the process: 4
+ - Number of logical cores available for the process: 8
+ - Cache line size: 64
+ - Memory allocator used: binned2
+ - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+Benchmarking clocks:
+ - CLOCK_MONOTONIC (id=1) can sustain 60097490 (60097K, 60M) calls per second without zero deltas.
+ - CLOCK_MONOTONIC_RAW (id=4) can sustain 2092419 (2092K, 2M) calls per second without zero deltas.
+ - CLOCK_MONOTONIC_COARSE (id=6) can sustain 207272488 (207272K, 207M) calls per second with 99.999875% zero deltas.
+Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+Unix-specific commandline switches:
+ -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+ -jemalloc - use jemalloc for all memory allocation
+ -binnedmalloc - use binned malloc  for all memory allocation
+ -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+ -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+ -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+ -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+ -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+ -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+ -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+ -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+ - Physical RAM available (not considering process quota): 16 GB (15981 MB, 16365564 KB, 16758337536 bytes)
+ - VirtualMemoryAllocator pools will grow at scale 1.4
+ - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+Using OS detected language (en-US).
+Using OS detected locale (en-US).
+No specific localization for 'en-US' exists, so the 'en' localization will be used.
+New Slate User Created.  User Index 0, Is Virtual User: 0
+Slate User Registered.  User Index 0, Is Virtual User: 0
+Using SDL_WINDOW_OPENGL
+Initializing OpenGL RHI
+  GL_VENDOR: NVIDIA Corporation
+  GL_RENDERER: GeForce GTX 1060 3GB/PCIe/SSE2
+  GL_VERSION: 4.3.0 NVIDIA 396.54
+  GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+OpenGL Extensions:
+  GL_AMD_multi_draw_indirect
+  GL_AMD_seamless_cubemap_per_texture
+  GL_AMD_vertex_shader_viewport_index
+  GL_AMD_vertex_shader_layer
+  GL_ARB_arrays_of_arrays
+  GL_ARB_base_instance
+  GL_ARB_bindless_texture
+  GL_ARB_blend_func_extended
+  GL_ARB_buffer_storage
+  GL_ARB_clear_buffer_object
+  GL_ARB_clear_texture
+  GL_ARB_clip_control
+  GL_ARB_color_buffer_float
+  GL_ARB_compressed_texture_pixel_storage
+  GL_ARB_conservative_depth
+  GL_ARB_compute_shader
+  GL_ARB_compute_variable_group_size
+  GL_ARB_conditional_render_inverted
+  GL_ARB_copy_buffer
+  GL_ARB_copy_image
+  GL_ARB_cull_distance
+  GL_ARB_debug_output
+  GL_ARB_depth_buffer_float
+  GL_ARB_depth_clamp
+  GL_ARB_depth_texture
+  GL_ARB_derivative_control
+  GL_ARB_direct_state_access
+  GL_ARB_draw_buffers
+  GL_ARB_draw_buffers_blend
+  GL_ARB_draw_indirect
+  GL_ARB_draw_elements_base_vertex
+  GL_ARB_draw_instanced
+  GL_ARB_enhanced_layouts
+  GL_ARB_ES2_compatibility
+  GL_ARB_ES3_compatibility
+  GL_ARB_ES3_1_compatibility
+  GL_ARB_ES3_2_compatibility
+  GL_ARB_explicit_attrib_location
+  GL_ARB_explicit_uniform_location
+  GL_ARB_fragment_coord_conventions
+  GL_ARB_fragment_layer_viewport
+  GL_ARB_fragment_program
+  GL_ARB_fragment_program_shadow
+  GL_ARB_fragment_shader
+  GL_ARB_fragment_shader_interlock
+  GL_ARB_framebuffer_no_attachments
+  GL_ARB_framebuffer_object
+  GL_ARB_framebuffer_sRGB
+  GL_ARB_geometry_shader4
+  GL_ARB_get_program_binary
+  GL_ARB_get_texture_sub_image
+  GL_ARB_gl_spirv
+  GL_ARB_gpu_shader5
+  GL_ARB_gpu_shader_fp64
+  GL_ARB_gpu_shader_int64
+  GL_ARB_half_float_pixel
+  GL_ARB_half_float_vertex
+  GL_ARB_imaging
+  GL_ARB_indirect_parameters
+  GL_ARB_instanced_arrays
+  GL_ARB_internalformat_query
+  GL_ARB_internalformat_query2
+  GL_ARB_invalidate_subdata
+  GL_ARB_map_buffer_alignment
+  GL_ARB_map_buffer_range
+  GL_ARB_multi_bind
+  GL_ARB_multi_draw_indirect
+  GL_ARB_multisample
+  GL_ARB_multitexture
+  GL_ARB_occlusion_query
+  GL_ARB_occlusion_query2
+  GL_ARB_parallel_shader_compile
+  GL_ARB_pipeline_statistics_query
+  GL_ARB_pixel_buffer_object
+  GL_ARB_point_parameters
+  GL_ARB_point_sprite
+  GL_ARB_polygon_offset_clamp
+  GL_ARB_post_depth_coverage
+  GL_ARB_program_interface_query
+  GL_ARB_provoking_vertex
+  GL_ARB_query_buffer_object
+  GL_ARB_robust_buffer_access_behavior
+  GL_ARB_robustness
+  GL_ARB_sample_locations
+  GL_ARB_sample_shading
+  GL_ARB_sampler_objects
+  GL_ARB_seamless_cube_map
+  GL_ARB_seamless_cubemap_per_texture
+  GL_ARB_separate_shader_objects
+  GL_ARB_shader_atomic_counter_ops
+  GL_ARB_shader_atomic_counters
+  GL_ARB_shader_ballot
+  GL_ARB_shader_bit_encoding
+  GL_ARB_shader_clock
+  GL_ARB_shader_draw_parameters
+  GL_ARB_shader_group_vote
+  GL_ARB_shader_image_load_store
+  GL_ARB_shader_image_size
+  GL_ARB_shader_objects
+  GL_ARB_shader_precision
+  GL_ARB_shader_storage_buffer_object
+  GL_ARB_shader_subroutine
+  GL_ARB_shader_texture_image_samples
+  GL_ARB_shader_texture_lod
+  GL_ARB_shading_language_100
+  GL_ARB_shader_viewport_layer_array
+  GL_ARB_shading_language_420pack
+  GL_ARB_shading_language_include
+  GL_ARB_shading_language_packing
+  GL_ARB_shadow
+  GL_ARB_sparse_buffer
+  GL_ARB_sparse_texture
+  GL_ARB_sparse_texture2
+  GL_ARB_sparse_texture_clamp
+  GL_ARB_spirv_extensions
+  GL_ARB_stencil_texturing
+  GL_ARB_sync
+  GL_ARB_tessellation_shader
+  GL_ARB_texture_barrier
+  GL_ARB_texture_border_clamp
+  GL_ARB_texture_buffer_object
+  GL_ARB_texture_buffer_object_rgb32
+  GL_ARB_texture_buffer_range
+  GL_ARB_texture_compression
+  GL_ARB_texture_compression_bptc
+  GL_ARB_texture_compression_rgtc
+  GL_ARB_texture_cube_map
+  GL_ARB_texture_cube_map_array
+  GL_ARB_texture_env_add
+  GL_ARB_texture_env_combine
+  GL_ARB_texture_env_crossbar
+  GL_ARB_texture_env_dot3
+  GL_ARB_texture_filter_anisotropic
+  GL_ARB_texture_filter_minmax
+  GL_ARB_texture_float
+  GL_ARB_texture_gather
+  GL_ARB_texture_mirror_clamp_to_edge
+  GL_ARB_texture_mirrored_repeat
+  GL_ARB_texture_multisample
+  GL_ARB_texture_non_power_of_two
+  GL_ARB_texture_query_levels
+  GL_ARB_texture_query_lod
+  GL_ARB_texture_rectangle
+  GL_ARB_texture_rg
+  GL_ARB_texture_rgb10_a2ui
+  GL_ARB_texture_stencil8
+  GL_ARB_texture_storage
+  GL_ARB_texture_storage_multisample
+  GL_ARB_texture_swizzle
+  GL_ARB_texture_view
+  GL_ARB_timer_query
+  GL_ARB_transform_feedback2
+  GL_ARB_transform_feedback3
+  GL_ARB_transform_feedback_instanced
+  GL_ARB_transform_feedback_overflow_query
+  GL_ARB_transpose_matrix
+  GL_ARB_uniform_buffer_object
+  GL_ARB_vertex_array_bgra
+  GL_ARB_vertex_array_object
+  GL_ARB_vertex_attrib_64bit
+  GL_ARB_vertex_attrib_binding
+  GL_ARB_vertex_buffer_object
+  GL_ARB_vertex_program
+  GL_ARB_vertex_shader
+  GL_ARB_vertex_type_10f_11f_11f_rev
+  GL_ARB_vertex_type_2_10_10_10_rev
+  GL_ARB_viewport_array
+  GL_ARB_window_pos
+  GL_ATI_draw_buffers
+  GL_ATI_texture_float
+  GL_ATI_texture_mirror_once
+  GL_S3_s3tc
+  GL_EXT_texture_env_add
+  GL_EXT_abgr
+  GL_EXT_bgra
+  GL_EXT_bindable_uniform
+  GL_EXT_blend_color
+  GL_EXT_blend_equation_separate
+  GL_EXT_blend_func_separate
+  GL_EXT_blend_minmax
+  GL_EXT_blend_subtract
+  GL_EXT_compiled_vertex_array
+  GL_EXT_Cg_shader
+  GL_EXT_depth_bounds_test
+  GL_EXT_direct_state_access
+  GL_EXT_draw_buffers2
+  GL_EXT_draw_instanced
+  GL_EXT_draw_range_elements
+  GL_EXT_fog_coord
+  GL_EXT_framebuffer_blit
+  GL_EXT_framebuffer_multisample
+  GL_EXTX_framebuffer_mixed_formats
+  GL_EXT_framebuffer_multisample_blit_scaled
+  GL_EXT_framebuffer_object
+  GL_EXT_framebuffer_sRGB
+  GL_EXT_geometry_shader4
+  GL_EXT_gpu_program_parameters
+  GL_EXT_gpu_shader4
+  GL_EXT_multi_draw_arrays
+  GL_EXT_packed_depth_stencil
+  GL_EXT_packed_float
+  GL_EXT_packed_pixels
+  GL_EXT_pixel_buffer_object
+  GL_EXT_point_parameters
+  GL_EXT_polygon_offset_clamp
+  GL_EXT_post_depth_coverage
+  GL_EXT_provoking_vertex
+  GL_EXT_raster_multisample
+  GL_EXT_rescale_normal
+  GL_EXT_secondary_color
+  GL_EXT_separate_shader_objects
+  GL_EXT_separate_specular_color
+  GL_EXT_shader_image_load_formatted
+  GL_EXT_shader_image_load_store
+  GL_EXT_shader_integer_mix
+  GL_EXT_shadow_funcs
+  GL_EXT_sparse_texture2
+  GL_EXT_stencil_two_side
+  GL_EXT_stencil_wrap
+  GL_EXT_texture3D
+  GL_EXT_texture_array
+  GL_EXT_texture_buffer_object
+  GL_EXT_texture_compression_dxt1
+  GL_EXT_texture_compression_latc
+  GL_EXT_texture_compression_rgtc
+  GL_EXT_texture_compression_s3tc
+  GL_EXT_texture_cube_map
+  GL_EXT_texture_edge_clamp
+  GL_EXT_texture_env_combine
+  GL_EXT_texture_env_dot3
+  GL_EXT_texture_filter_anisotropic
+  GL_EXT_texture_filter_minmax
+  GL_EXT_texture_integer
+  GL_EXT_texture_lod
+  GL_EXT_texture_lod_bias
+  GL_EXT_texture_mirror_clamp
+  GL_EXT_texture_object
+  GL_EXT_texture_shared_exponent
+  GL_EXT_texture_sRGB
+  GL_EXT_texture_sRGB_decode
+  GL_EXT_texture_storage
+  GL_EXT_texture_swizzle
+  GL_EXT_timer_query
+  GL_EXT_transform_feedback2
+  GL_EXT_vertex_array
+  GL_EXT_vertex_array_bgra
+  GL_EXT_vertex_attrib_64bit
+  GL_EXT_window_rectangles
+  GL_EXT_x11_sync_object
+  GL_EXT_import_sync_object
+  GL_NV_robustness_video_memory_purge
+  GL_IBM_rasterpos_clip
+  GL_IBM_texture_mirrored_repeat
+  GL_KHR_context_flush_control
+  GL_KHR_debug
+  GL_EXT_memory_object
+  GL_EXT_memory_object_fd
+  GL_KHR_parallel_shader_compile
+  GL_KHR_no_error
+  GL_KHR_robust_buffer_access_behavior
+  GL_KHR_robustness
+  GL_EXT_semaphore
+  GL_EXT_semaphore_fd
+  GL_KTX_buffer_region
+  GL_NV_alpha_to_coverage_dither_control
+  GL_NV_bindless_multi_draw_indirect
+  GL_NV_bindless_multi_draw_indirect_count
+  GL_NV_bindless_texture
+  GL_NV_blend_equation_advanced
+  GL_NV_blend_equation_advanced_coherent
+  GL_NVX_blend_equation_advanced_multi_draw_buffers
+  GL_NV_blend_minmax_factor
+  GL_NV_blend_square
+  GL_NV_clip_space_w_scaling
+  GL_NV_command_list
+  GL_NV_compute_program5
+  GL_NV_conditional_render
+  GL_NV_conservative_raster
+  GL_NV_conservative_raster_dilate
+  GL_NV_conservative_raster_pre_snap_triangles
+  GL_NV_copy_depth_to_color
+  GL_NV_copy_image
+  GL_NV_depth_buffer_float
+  GL_NV_depth_clamp
+  GL_NV_draw_texture
+  GL_NV_draw_vulkan_image
+  GL_NV_ES1_1_compatibility
+  GL_NV_ES3_1_compatibility
+  GL_NV_explicit_multisample
+  GL_NV_feature_query
+  GL_NV_fence
+  GL_NV_fill_rectangle
+  GL_NV_float_buffer
+  GL_NV_fog_distance
+  GL_NV_fragment_coverage_to_color
+  GL_NV_fragment_program
+  GL_NV_fragment_program_option
+  GL_NV_fragment_program2
+  GL_NV_fragment_shader_interlock
+  GL_NV_framebuffer_mixed_samples
+  GL_NV_framebuffer_multisample_coverage
+  GL_NV_geometry_shader4
+  GL_NV_geometry_shader_passthrough
+  GL_NV_gpu_program4
+  GL_NV_internalformat_sample_query
+  GL_NV_gpu_program4_1
+  GL_NV_gpu_program5
+  GL_NV_gpu_program5_mem_extended
+  GL_NV_gpu_program_fp64
+  GL_NV_gpu_shader5
+  GL_NV_half_float
+  GL_NV_light_max_exponent
+  GL_NV_multisample_coverage
+  GL_NV_multisample_filter_hint
+  GL_NV_occlusion_query
+  GL_NV_packed_depth_stencil
+  GL_NV_parameter_buffer_object
+  GL_NV_parameter_buffer_object2
+  GL_NV_path_rendering
+  GL_NV_path_rendering_shared_edge
+  GL_NV_pixel_data_range
+  GL_NV_point_sprite
+  GL_NV_primitive_restart
+  GL_NV_query_resource
+  GL_NV_query_resource_tag
+  GL_NV_register_combiners
+  GL_NV_register_combiners2
+  GL_NV_sample_locations
+  GL_NV_sample_mask_override_coverage
+  GL_NV_shader_atomic_counters
+  GL_NV_shader_atomic_float
+  GL_NV_shader_atomic_float64
+  GL_NV_shader_atomic_fp16_vector
+  GL_NV_shader_atomic_int64
+  GL_NV_shader_buffer_load
+  GL_NV_shader_storage_buffer_object
+  GL_NV_stereo_view_rendering
+  GL_NV_texgen_reflection
+  GL_NV_texture_barrier
+  GL_NV_texture_compression_vtc
+  GL_NV_texture_env_combine4
+  GL_NV_texture_multisample
+  GL_NV_texture_rectangle
+  GL_NV_texture_rectangle_compressed
+  GL_NV_texture_shader
+  GL_NV_texture_shader2
+  GL_NV_texture_shader3
+  GL_NV_transform_feedback
+  GL_NV_transform_feedback2
+  GL_NV_uniform_buffer_unified_memory
+  GL_NV_vdpau_interop
+  GL_NV_vertex_array_range
+  GL_NV_vertex_array_range2
+  GL_NV_vertex_attrib_integer_64bit
+  GL_NV_vertex_buffer_unified_memory
+  GL_NV_vertex_program
+  GL_NV_vertex_program1_1
+  GL_NV_vertex_program2
+  GL_NV_vertex_program2_option
+  GL_NV_vertex_program3
+  GL_NV_viewport_array2
+  GL_NV_viewport_swizzle
+  GL_NVX_conditional_render
+  GL_NVX_gpu_memory_info
+  GL_NVX_nvenc_interop
+  GL_NV_shader_thread_group
+  GL_NV_shader_thread_shuffle
+  GL_KHR_blend_equation_advanced
+  GL_KHR_blend_equation_advanced_coherent
+  GL_SGIS_generate_mipmap
+  GL_SGIS_texture_lod
+  GL_SGIX_depth_texture
+  GL_SGIX_shadow
+  GL_SUN_slice_accum
+  GL_MAX_TEXTURE_SIZE: 32768
+  GL_MAX_CUBE_MAP_TEXTURE_SIZE: 32768
+  GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+  GL_MAX_3D_TEXTURE_SIZE: 16384
+  GL_MAX_RENDERBUFFER_SIZE: 32768
+  GL_MAX_TEXTURE_IMAGE_UNITS: 32
+  GL_MAX_DRAW_BUFFERS: 8
+  GL_MAX_COLOR_ATTACHMENTS: 8
+  GL_MAX_SAMPLES: 32
+  GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+  GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+  GL_MAX_INTEGER_SAMPLES: 32
+  GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+  GL_MAX_VERTEX_ATTRIBS: 16
+  GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+FOpenGLProgramBinaryCache disabled by r.ProgramBinaryCache.Enable=0
+FGlobalReadBuffer::InitRHI
+FGlobalReadBuffer::InitRHI
+FGlobalReadBuffer::InitRHI
+Texture pool is 2150 MB (70% of 3072 MB)
+Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+Building Assets For Linux
+Guid format shader working directory is 14 characters bigger than the processId version (../../../../Project_Folder/TestRos/Intermediate/Shaders/WorkingDirectory/22381/).
+Cleaned the shader compiler working directory '../../../../Project_Folder/TestRos/Intermediate/Shaders/tmp/0005668908D711D2FCCAF10A892F586D/'.
+Using Local Shader Compiler.
+Max Cache Size: 512 MB
+Loaded boot cache 0.06s 85MB ../../../../Project_Folder/TestRos/DerivedDataCache/Boot.ddc.
+Loaded Boot cache: ../../../../Project_Folder/TestRos/DerivedDataCache/Boot.ddc
+FDerivedDataBackendGraph:  Pak pak cache file ../../../../Project_Folder/TestRos/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+Unable to find inner node Pak for hierarchical cache Hierarchy.
+FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+Shared data cache path not found in *engine.ini, will not use an Shared cache.
+Unable to find inner node Shared for hierarchical cache Hierarchy.
+Verifying Global Shaders for GLSL_430
+Using FreeType 2.6.0
+SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+FAssetRegistry took 0.0023 seconds to start up
+Selected Device Profile: [Linux]
+Using QuadricMeshReduction for automatic static mesh reduction
+Using SimplygonMeshReduction for automatic skeletal mesh reduction
+No automatic mesh merging module available
+No distributed automatic mesh merging module available
+No automatic mesh merging module available
+No distributed automatic mesh merging module available
+TestRos 1.0.0, NetCL: 0, EngineNetVer: 10, GameNetVer: 0 (Checksum: 624208275)
+Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.018864 seconds
+41533 objects as part of root set at end of initial load.
+7197240 out of 0 bytes used by permanent object pool.
+CloseDisregardForGC: 0/0 objects in disregard for GC pool
+Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+Initializing TcpMessaging bridge
+Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 55)
+StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+UAndroidPermissionCallbackProxy::GetInstance
+Source control is disabled
+Source control is disabled
+Source control is disabled
+Source control is disabled
+
+
+Script Stack (0 frames):
+
+appError called: Assertion failed: GIsHotReload [File:/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectBase.cpp] [Line: 607] 
+Trying to recreate class '(null)' outside of hot reload!
+
+=== Critical error: ===
+Unhandled Exception: SIGSEGV: invalid attempt to write memory at address 0x0000000000000003
+
+Assertion failed: GIsHotReload [File:/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectBase.cpp] [Line: 607] 
+Trying to recreate class '(null)' outside of hot reload!
+
+
+0x00007fb0b8984f43 libUE4Editor-Core.so!FGenericPlatformMisc::RaiseException(unsigned int) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:411]
+0x00007fb0b8d442b4 libUE4Editor-Core.so!FUnixErrorOutputDevice::Serialize(char16_t const*, ELogVerbosity::Type, FName const&) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:70]
+0x00007fb0b8b6e14b libUE4Editor-Core.so!FOutputDevice::LogfImpl(char16_t const*, ...) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/OutputDevice.cpp:71]
+0x00007fb0b8afbf96 libUE4Editor-Core.so!AssertFailedImplV(char const*, char const*, int, char16_t const*, __va_list_tag*) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:101]
+0x00007fb0b8afbe24 libUE4Editor-Core.so!FDebug::CheckVerifyFailedImpl(char const*, char const*, int, char16_t const*, ...) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:436]
+0x00007fb0b8483163 libUE4Editor-CoreUObject.so!UClassCompiledInDefer(FFieldCompiledInInfo*, char16_t const*, unsigned long, unsigned int)::$_15::operator()() const [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectBase.cpp:607]
+0x00007fb0b8411b67 libUE4Editor-CoreUObject.so!UClassCompiledInDefer(FFieldCompiledInInfo*, char16_t const*, unsigned long, unsigned int) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectBase.cpp:607]
+0x00007fb05c635c63 libUE4Editor-ROSIntegration-0001.so!<name omitted> [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Plugins/ROSIntegration/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/ROSIntegration/Module.ROSIntegration.gen.cpp:0]
+0x00007fb0b98766ca ld-linux-x86-64.so.2!UnknownFunction(0x106c9)
+0x00007fb0b98767db ld-linux-x86-64.so.2!UnknownFunction(0x107da)
+0x00007fb0b987b8f2 ld-linux-x86-64.so.2!UnknownFunction(0x158f1)
+0x00007fb0b9876574 ld-linux-x86-64.so.2!UnknownFunction(0x10573)
+0x00007fb0b987adb9 ld-linux-x86-64.so.2!UnknownFunction(0x14db8)
+0x00007fb0b9445f09 libdl.so.2!UnknownFunction(0xf08)
+0x00007fb0b9876574 ld-linux-x86-64.so.2!UnknownFunction(0x10573)
+0x00007fb0b9446571 libdl.so.2!UnknownFunction(0x1570)
+0x00007fb0b9445fa1 libdl.so.2!dlopen(+0x30)
+0x00007fb0b8d55b6a libUE4Editor-Core.so!FUnixPlatformProcess::GetDllHandle(char16_t const*) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformProcess.cpp:53]
+0x00007fb0b8ba1ab8 libUE4Editor-Core.so!FModuleManager::LoadModuleWithFailureReason(FName, EModuleLoadResult&) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Modules/ModuleManager.cpp:511]
+0x00007fb0b98d67f2 libUE4Editor-Projects.so!FModuleDescriptor::LoadModulesForPhase(ELoadingPhase::Type, TArray<FModuleDescriptor, FDefaultAllocator> const&, TMap<FName, EModuleLoadResult, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<FName, EModuleLoadResult, false> >&) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Projects/Private/ModuleDescriptor.cpp:595]
+0x00007fb0b98e5df2 libUE4Editor-Projects.so!TryLoadModulesForPlugin(FPlugin const&, ELoadingPhase::Type) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Projects/Private/PluginManager.cpp:921]
+0x00007fb0b98e5867 libUE4Editor-Projects.so!FPluginManager::LoadModulesForEnabledPlugins(ELoadingPhase::Type) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Projects/Private/PluginManager.cpp:988]
+0x00000000002508cc UE4Editor!FEngineLoop::LoadStartupModules() [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3135]
+0x00000000002359a9 UE4Editor!FEngineLoop::PreInit(char16_t const*) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:2536]
+0x0000000000249ab2 UE4Editor!GuardedMain(char16_t const*) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:129]
+0x00007fb0aee4a149 libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:243]
+0x00007fb0ae58c830 libc.so.6!__libc_start_main(+0xef)
+0x0000000000231029 UE4Editor!_start()
+
+Executing StaticShutdownAfterError
+Unable to statfs('/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Saved/Crashes/crashinfo-TestRos-pid-22381-0482BB0F08D711D304AC413089F90F05/TestRos.log'): errno=2 (No such file or directory)

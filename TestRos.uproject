@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0004209A-08D7-1115-C83D-D8209D76FB5F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "TestRos",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"ROSIntegration"
+			]
+		}
+	]
+}

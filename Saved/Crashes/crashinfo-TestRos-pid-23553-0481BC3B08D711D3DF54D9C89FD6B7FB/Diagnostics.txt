@@ -1,0 +1,47 @@
+Generating report for minidump
+
+Application version 4.22.3.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-54-generic (network name: z8799)
+Running 4 x86_64 processors (8 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FGenericPlatformMisc::RaiseException(unsigned int) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:411]
+libUE4Editor-Core.so!FUnixErrorOutputDevice::Serialize(char16_t const*, ELogVerbosity::Type, FName const&) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:70]
+libUE4Editor-Core.so!FOutputDevice::LogfImpl(char16_t const*, ...) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/OutputDevice.cpp:71]
+libUE4Editor-Core.so!AssertFailedImplV(char const*, char const*, int, char16_t const*, __va_list_tag*) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:101]
+libUE4Editor-Core.so!FDebug::CheckVerifyFailedImpl(char const*, char const*, int, char16_t const*, ...) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:436]
+libUE4Editor-CoreUObject.so!UClassCompiledInDefer(FFieldCompiledInInfo*, char16_t const*, unsigned long, unsigned int)::$_15::operator()() const [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectBase.cpp:607]
+libUE4Editor-CoreUObject.so!UClassCompiledInDefer(FFieldCompiledInInfo*, char16_t const*, unsigned long, unsigned int) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectBase.cpp:607]
+libUE4Editor-ROSIntegration-0001.so!<name omitted> [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/Project_Folder/TestRos/Plugins/ROSIntegration/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/ROSIntegration/Module.ROSIntegration.gen.cpp:0]
+ld-linux-x86-64.so.2!UnknownFunction(0x106c9)
+ld-linux-x86-64.so.2!UnknownFunction(0x107da)
+ld-linux-x86-64.so.2!UnknownFunction(0x158f1)
+ld-linux-x86-64.so.2!UnknownFunction(0x10573)
+ld-linux-x86-64.so.2!UnknownFunction(0x14db8)
+libdl.so.2!UnknownFunction(0xf08)
+ld-linux-x86-64.so.2!UnknownFunction(0x10573)
+libdl.so.2!UnknownFunction(0x1570)
+libdl.so.2!dlopen(+0x30)
+libUE4Editor-Core.so!FUnixPlatformProcess::GetDllHandle(char16_t const*) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformProcess.cpp:53]
+libUE4Editor-Core.so!FModuleManager::LoadModuleWithFailureReason(FName, EModuleLoadResult&) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Modules/ModuleManager.cpp:511]
+libUE4Editor-Projects.so!FModuleDescriptor::LoadModulesForPhase(ELoadingPhase::Type, TArray<FModuleDescriptor, FDefaultAllocator> const&, TMap<FName, EModuleLoadResult, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<FName, EModuleLoadResult, false> >&) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Projects/Private/ModuleDescriptor.cpp:595]
+libUE4Editor-Projects.so!TryLoadModulesForPlugin(FPlugin const&, ELoadingPhase::Type) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Projects/Private/PluginManager.cpp:921]
+libUE4Editor-Projects.so!FPluginManager::LoadModulesForEnabledPlugins(ELoadingPhase::Type) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Projects/Private/PluginManager.cpp:988]
+UE4Editor!FEngineLoop::LoadStartupModules() [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3135]
+UE4Editor!FEngineLoop::PreInit(char16_t const*) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:2536]
+UE4Editor!GuardedMain(char16_t const*) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:129]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:243]
+libc.so.6!__libc_start_main(+0xef)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

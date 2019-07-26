@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/media/papa.beye/Papa.beye/H42/simulation/unreal/engine/UnrealEngine"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	}
+}
