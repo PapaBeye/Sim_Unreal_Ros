@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Sim__RWS (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Sim__RWS Linux Debug Build",
+			"program": "/home/papa/Documents/Unreal Projects/Sim__RWS/Binaries/Linux/Sim__RWS-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/papa/Desktop/unreal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Sim__RWS (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Sim__RWS Linux DebugGame Build",
+			"program": "/home/papa/Documents/Unreal Projects/Sim__RWS/Binaries/Linux/Sim__RWS-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/papa/Desktop/unreal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Sim__RWS (Development)",
+			"request": "launch",
+			"preLaunchTask": "Sim__RWS Linux Development Build",
+			"program": "/home/papa/Documents/Unreal Projects/Sim__RWS/Binaries/Linux/Sim__RWS",
+			"args": [
+			],
+			"cwd": "/home/papa/Desktop/unreal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Sim__RWS (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Sim__RWS Linux Shipping Build",
+			"program": "/home/papa/Documents/Unreal Projects/Sim__RWS/Binaries/Linux/Sim__RWS-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/papa/Desktop/unreal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Sim__RWS (Test)",
+			"request": "launch",
+			"preLaunchTask": "Sim__RWS Linux Test Build",
+			"program": "/home/papa/Documents/Unreal Projects/Sim__RWS/Binaries/Linux/Sim__RWS-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/papa/Desktop/unreal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Sim__RWSEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Sim__RWSEditor Linux Debug Build",
+			"program": "/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"
+			],
+			"cwd": "/home/papa/Desktop/unreal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Sim__RWSEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Sim__RWSEditor Linux DebugGame Build",
+			"program": "/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"
+			],
+			"cwd": "/home/papa/Desktop/unreal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Sim__RWSEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "Sim__RWSEditor Linux Development Build",
+			"program": "/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"
+			],
+			"cwd": "/home/papa/Desktop/unreal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+		}
+	]
+}

@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="Sim__RWSEditor">
+  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS.Target.cs" />
+    <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWSEditor.Target.cs" />
+    <VirtualDirectory Name="Sim__RWS">
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/M2GunPawn.cpp" />
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/M2GunPawn.h" />
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/MyROSIntegrationGameInstance.cpp" />
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/MyROSIntegrationGameInstance.h" />
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/Sim__RWS.Build.cs" />
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/Sim__RWS.cpp" />
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/Sim__RWS.h" />
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/Sim__RWSCharacter.cpp" />
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/Sim__RWSCharacter.h" />
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/Sim__RWSGameMode.cpp" />
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/Sim__RWSGameMode.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Config/DefaultEditor.ini" />
+    <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Config/DefaultEditorPerProjectUserSettings.ini" />
+    <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Config/DefaultEngine.ini" />
+    <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Config/DefaultGame.ini" />
+    <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Config/DefaultInput.ini" />
+  </VirtualDirectory>
+  <VirtualDirectory Name="Plugins">
+    <VirtualDirectory Name="ROSIntegration">
+      <VirtualDirectory Name="Source">
+        <VirtualDirectory Name="ROSIntegration">
+          <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/ROSIntegration.Build.cs" />
+          <VirtualDirectory Name="Classes">
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Classes/LookAtScanComponent.h" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Classes/ROSIntegrationCore.h" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Classes/ROSIntegrationGameInstance.h" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Classes/SpawnManager.h" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Classes/SpawnObjectMessage.h" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Classes/SpawnableObject.h" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Classes/TFBroadcastComponent.h" />
+            <VirtualDirectory Name="RI">
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Classes/RI/Service.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Classes/RI/Topic.h" />
+            </VirtualDirectory>
+          </VirtualDirectory>
+          <VirtualDirectory Name="Private">
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/LookAtScanComponent.cpp" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/ROSIntegration.cpp" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/ROSIntegrationCore.cpp" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/ROSIntegrationGameInstance.cpp" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/ROSTime.cpp" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Service.cpp" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/SpawnManager.cpp" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/SpawnObjectMessage.cpp" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/SpawnableObject.cpp" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/TFBroadcastComponent.cpp" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Topic.cpp" />
+            <VirtualDirectory Name="Conversion">
+              <VirtualDirectory Name="Messages">
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/BaseMessageConverter.cpp" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/BaseMessageConverter.h" />
+                <VirtualDirectory Name="actionlib_msgs">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/actionlib_msgs/ActionlibMsgsGoalIDConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/actionlib_msgs/ActionlibMsgsGoalIDConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/actionlib_msgs/ActionlibMsgsGoalStatusArrayConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/actionlib_msgs/ActionlibMsgsGoalStatusArrayConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/actionlib_msgs/ActionlibMsgsGoalStatusConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/actionlib_msgs/ActionlibMsgsGoalStatusConverter.h" />
+                </VirtualDirectory>
+                <VirtualDirectory Name="geometry_msgs">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsPointConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsPointConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsPoseConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsPoseConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsPoseStampedConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsPoseStampedConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsPoseWithCovarianceConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsPoseWithCovarianceConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsQuaternionConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsQuaternionConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsTransformConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsTransformConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsTransformStampedConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsTransformStampedConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsTwistConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsTwistConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsTwistWithCovarianceConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsTwistWithCovarianceConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsVector3Converter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/geometry_msgs/GeometryMsgsVector3Converter.h" />
+                </VirtualDirectory>
+                <VirtualDirectory Name="grid_map_msgs">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/grid_map_msgs/GridMapMsgsGridMapConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/grid_map_msgs/GridMapMsgsGridMapConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/grid_map_msgs/GridMapMsgsGridMapInfoConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/grid_map_msgs/GridMapMsgsGridMapInfoConverter.h" />
+                </VirtualDirectory>
+                <VirtualDirectory Name="nav_msgs">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/nav_msgs/NavMsgsMapMetaDataConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/nav_msgs/NavMsgsMapMetaDataConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/nav_msgs/NavMsgsOccupancyGridConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/nav_msgs/NavMsgsOccupancyGridConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/nav_msgs/NavMsgsOdometryConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/nav_msgs/NavMsgsOdometryConverter.h" />
+                </VirtualDirectory>
+                <VirtualDirectory Name="rosgraph_msgs">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/rosgraph_msgs/ROSGraphMsgsClockConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/rosgraph_msgs/ROSGraphMsgsClockConverter.h" />
+                </VirtualDirectory>
+                <VirtualDirectory Name="sensor_msgs">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsCameraInfoConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsCameraInfoConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsCompressedImageConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsCompressedImageConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsImageConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsImageConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsImuConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsImuConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsLaserScanConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsLaserScanConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsNavSatFixConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsNavSatFixConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsNavSatStatusConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsNavSatStatusConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsPointCloud2Converter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsPointCloud2Converter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsRegionOfInterestConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/sensor_msgs/SensorMsgsRegionOfInterestConverter.h" />
+                </VirtualDirectory>
+                <VirtualDirectory Name="std_msgs">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsFloat32Converter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsFloat32Converter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsFloat32MultiArrayConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsFloat32MultiArrayConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsHeaderConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsHeaderConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsMultiArrayDimensionConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsMultiArrayDimensionConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsMultiArrayLayoutConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsMultiArrayLayoutConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsStringConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsStringConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsUInt8MultiArrayConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/std_msgs/StdMsgsUInt8MultiArrayConverter.h" />
+                </VirtualDirectory>
+                <VirtualDirectory Name="tf2_msgs">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/tf2_msgs/Tf2MsgsTFMessageConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Messages/tf2_msgs/Tf2MsgsTFMessageConverter.h" />
+                </VirtualDirectory>
+              </VirtualDirectory>
+              <VirtualDirectory Name="Services">
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Services/BaseRequestConverter.cpp" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Services/BaseRequestConverter.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Services/BaseResponseConverter.cpp" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Services/BaseResponseConverter.h" />
+                <VirtualDirectory Name="rospy_tutorials">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Services/rospy_tutorials/RospyTutorialsAddTwoIntsRequestConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Services/rospy_tutorials/RospyTutorialsAddTwoIntsRequestConverter.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Services/rospy_tutorials/RospyTutorialsAddTwoIntsResponseConverter.cpp" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Conversion/Services/rospy_tutorials/RospyTutorialsAddTwoIntsResponseConverter.h" />
+                </VirtualDirectory>
+              </VirtualDirectory>
+            </VirtualDirectory>
+            <VirtualDirectory Name="rosbridge2cpp">
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/TCPConnection.cpp" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/TCPConnection.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/helper.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/itransport_layer.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/ros_bridge.cpp" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/ros_bridge.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/ros_message_factory.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/ros_service.cpp" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/ros_service.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/ros_tf_broadcaster.cpp" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/ros_tf_broadcaster.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/ros_time.cpp" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/ros_time.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/ros_topic.cpp" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/ros_topic.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/spinlock.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/types.h" />
+              <VirtualDirectory Name="messages">
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/messages/rosbridge_advertise_msg.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/messages/rosbridge_advertise_service_msg.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/messages/rosbridge_call_service_msg.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/messages/rosbridge_msg.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/messages/rosbridge_publish_msg.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/messages/rosbridge_service_response_msg.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/messages/rosbridge_subscribe_msg.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/messages/rosbridge_unadvertise_msg.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/messages/rosbridge_unadvertise_service_msg.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/messages/rosbridge_unsubscribe_msg.h" />
+              </VirtualDirectory>
+              <VirtualDirectory Name="rapidjson">
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/allocators.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/document.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/encodedstream.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/encodings.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/filereadstream.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/filewritestream.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/fwd.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/istreamwrapper.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/memorybuffer.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/memorystream.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/ostreamwrapper.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/pointer.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/prettywriter.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/rapidjson.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/reader.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/schema.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/stream.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/stringbuffer.h" />
+                <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/writer.h" />
+                <VirtualDirectory Name="error">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/error/en.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/error/error.h" />
+                </VirtualDirectory>
+                <VirtualDirectory Name="internal">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/biginteger.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/diyfp.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/dtoa.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/ieee754.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/itoa.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/meta.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/pow10.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/regex.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/stack.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/strfunc.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/strtod.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/internal/swap.h" />
+                </VirtualDirectory>
+                <VirtualDirectory Name="msinttypes">
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/msinttypes/inttypes.h" />
+                  <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp/rapidjson/msinttypes/stdint.h" />
+                </VirtualDirectory>
+              </VirtualDirectory>
+            </VirtualDirectory>
+          </VirtualDirectory>
+          <VirtualDirectory Name="Public">
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/ROSBaseMsg.h" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/ROSBaseServiceRequest.h" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/ROSBaseServiceResponse.h" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/ROSIntegration.h" />
+            <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/ROSTime.h" />
+            <VirtualDirectory Name="actionlib_msgs">
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/actionlib_msgs/GoalID.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/actionlib_msgs/GoalStatus.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/actionlib_msgs/GoalStatusArray.h" />
+            </VirtualDirectory>
+            <VirtualDirectory Name="geometry_msgs">
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/geometry_msgs/Point.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/geometry_msgs/Pose.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/geometry_msgs/PoseStamped.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/geometry_msgs/PoseWithCovariance.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/geometry_msgs/Quaternion.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/geometry_msgs/Transform.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/geometry_msgs/TransformStamped.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/geometry_msgs/Twist.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/geometry_msgs/TwistWithCovariance.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/geometry_msgs/Vector3.h" />
+            </VirtualDirectory>
+            <VirtualDirectory Name="grid_map_msgs">
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/grid_map_msgs/GridMap.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/grid_map_msgs/GridMapInfo.h" />
+            </VirtualDirectory>
+            <VirtualDirectory Name="nav_msgs">
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/nav_msgs/MapMetaData.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/nav_msgs/OccupancyGrid.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/nav_msgs/Odometry.h" />
+            </VirtualDirectory>
+            <VirtualDirectory Name="rosgraph_msgs">
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/rosgraph_msgs/Clock.h" />
+            </VirtualDirectory>
+            <VirtualDirectory Name="rospy_tutorials">
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/rospy_tutorials/AddTwoIntsRequest.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/rospy_tutorials/AddTwoIntsResponse.h" />
+            </VirtualDirectory>
+            <VirtualDirectory Name="sensor_msgs">
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/sensor_msgs/CameraInfo.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/sensor_msgs/CompressedImage.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/sensor_msgs/Image.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/sensor_msgs/Imu.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/sensor_msgs/LaserScan.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/sensor_msgs/NavSatFix.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/sensor_msgs/NavSatStatus.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/sensor_msgs/PointCloud2.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/sensor_msgs/RegionOfInterest.h" />
+            </VirtualDirectory>
+            <VirtualDirectory Name="std_msgs">
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/std_msgs/Float32.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/std_msgs/Float32MultiArray.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/std_msgs/Header.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/std_msgs/MultiArrayDimension.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/std_msgs/MultiArrayLayout.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/std_msgs/StdMsgsString.h" />
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/std_msgs/UInt8MultiArray.h" />
+            </VirtualDirectory>
+            <VirtualDirectory Name="tf2_msgs">
+              <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/Source/ROSIntegration/Public/tf2_msgs/TFMessage.h" />
+            </VirtualDirectory>
+          </VirtualDirectory>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <File Name="/home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/ROSIntegration.uplugin" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject&quot; -game" WorkingDirectory="/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <General CommandArguments="&quot;/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject&quot; -game" WorkingDirectory="/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Debug -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Debug -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Debug -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -clean
+mono UnrealBuildTool.exe Sim__RWSEditor Linux Debug -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject&quot; -game" WorkingDirectory="/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject&quot; -game" WorkingDirectory="/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux DebugGame -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux DebugGame -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux DebugGame -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -clean
+mono UnrealBuildTool.exe Sim__RWSEditor Linux DebugGame -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject&quot; -game" WorkingDirectory="/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject&quot; -game" WorkingDirectory="/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Development -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Development -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Development -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -clean
+mono UnrealBuildTool.exe Sim__RWSEditor Linux Development -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject&quot; -game" WorkingDirectory="/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <General CommandArguments="&quot;/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject&quot; -game" WorkingDirectory="/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Shipping -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Shipping -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Shipping -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -clean
+mono UnrealBuildTool.exe Sim__RWSEditor Linux Shipping -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject&quot; -game" WorkingDirectory="/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <General CommandArguments="&quot;/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject&quot; -game" WorkingDirectory="/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Test -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Test -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe Sim__RWSEditor Linux Test -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -clean
+mono UnrealBuildTool.exe Sim__RWSEditor Linux Test -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

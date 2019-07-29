@@ -1,0 +1,1691 @@
+﻿Log file open, 07/28/19 18:10:21
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Sim__RWS
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.074669
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin ROSIntegration
+LogStreaming: Display: Took  0.440s to configure plugins.
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.21-CL-0
+LogInit: Engine Version: 4.21.2-0+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-0+++UE4+Release-4.21
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jul 28 2019 06:37:01
+LogInit: Compiled with Clang: 6.0.1 (tags/RELEASE_601/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: /home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[r.RHICmdBypass:1]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Engine.ini]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Engine.ini]
+[2019.07.28-22.10.22:999][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Engine.ini]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.07.28-22.10.22:999][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Engine.ini]
+[2019.07.28-22.10.22:999][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.07.28-22.10.23:000][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Engine.ini]
+[2019.07.28-22.10.23:000][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Engine.ini]
+[2019.07.28-22.10.23:000][  0]LogInit: Initializing SDL.
+[2019.07.28-22.10.23:080][  0]LogInit: Initialized SDL 2.0.8 revision: 11184 (hg-12121:4358e537000a with EpicExtensions) (compiled against 2.0.8)
+[2019.07.28-22.10.23:080][  0]LogInit: Using SDL video driver 'x11'
+[2019.07.28-22.10.23:080][  0]LogInit: Display metrics:
+[2019.07.28-22.10.23:080][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2019.07.28-22.10.23:080][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2019.07.28-22.10.23:080][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2019.07.28-22.10.23:080][  0]LogInit:     Left=67, Top=27, Right=1920, Bottom=1080
+[2019.07.28-22.10.23:080][  0]LogInit:   VirtualDisplayRect:
+[2019.07.28-22.10.23:080][  0]LogInit:     Left=67, Top=27, Right=1920, Bottom=1080
+[2019.07.28-22.10.23:080][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2019.07.28-22.10.23:080][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2019.07.28-22.10.23:080][  0]LogInit:   Number of monitors: 1
+[2019.07.28-22.10.23:080][  0]LogInit:     Monitor 0
+[2019.07.28-22.10.23:080][  0]LogInit:       Name: 2460G4 24"
+[2019.07.28-22.10.23:080][  0]LogInit:       ID: display0
+[2019.07.28-22.10.23:080][  0]LogInit:       NativeWidth: 1920
+[2019.07.28-22.10.23:080][  0]LogInit:       NativeHeight: 1080
+[2019.07.28-22.10.23:080][  0]LogInit:       bIsPrimary: true
+[2019.07.28-22.10.23:080][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.28-22.10.23:080][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.28-22.10.23:081][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.28-22.10.23:081][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.07.28-22.10.23:081][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2019.07.28-22.10.23:091][  0]LogHAL: Display: Platform has ~ 4 GB [16821501952 / 4294967296 / 16], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.28-22.10.23:091][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.28-22.10.23:091][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.28-22.10.23:091][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Scalability.ini]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.07.28-22.10.23:092][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Config/Linux/Engine.ini]
+[2019.07.28-22.10.23:092][  0]LogConfig: Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+[2019.07.28-22.10.23:092][  0]LogInit: Unix hardware info:
+[2019.07.28-22.10.23:092][  0]LogInit:  - we are the first instance of this executable
+[2019.07.28-22.10.23:093][  0]LogInit:  - this process' id (pid) is 2930, parent process' id (ppid) is 1151
+[2019.07.28-22.10.23:093][  0]LogInit:  - we are not running under debugger
+[2019.07.28-22.10.23:093][  0]LogInit:  - machine network name is 'bae'
+[2019.07.28-22.10.23:093][  0]LogInit:  - user name is 'papa' (papa)
+[2019.07.28-22.10.23:093][  0]LogInit:  - we're logged in locally
+[2019.07.28-22.10.23:093][  0]LogInit:  - we're running with rendering
+[2019.07.28-22.10.23:093][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 7 1700 Eight-Core Processor          ' (signature: 0x800F11)
+[2019.07.28-22.10.23:093][  0]LogInit:  - Number of physical cores available for the process: 8
+[2019.07.28-22.10.23:093][  0]LogInit:  - Number of logical cores available for the process: 16
+[2019.07.28-22.10.23:093][  0]LogInit:  - Cache line size: 64
+[2019.07.28-22.10.23:093][  0]LogInit:  - Memory allocator used: binned2
+[2019.07.28-22.10.23:093][  0]LogCore: Benchmarking clocks:
+[2019.07.28-22.10.23:093][  0]LogCore:  - CLOCK_REALTIME (id=0) can sustain 33589476 (33589K, 34M) calls per second without zero deltas.
+[2019.07.28-22.10.23:093][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 33612486 (33612K, 34M) calls per second without zero deltas.
+[2019.07.28-22.10.23:093][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 5917530 (5918K, 6M) calls per second without zero deltas.
+[2019.07.28-22.10.23:093][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 153318569 (153319K, 153M) calls per second with 99.999830% zero deltas.
+[2019.07.28-22.10.23:093][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2019.07.28-22.10.23:093][  0]LogInit: Unix-specific commandline switches:
+[2019.07.28-22.10.23:093][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2019.07.28-22.10.23:093][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2019.07.28-22.10.23:093][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2019.07.28-22.10.23:093][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2019.07.28-22.10.23:093][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2019.07.28-22.10.23:093][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2019.07.28-22.10.23:093][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2019.07.28-22.10.23:093][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2019.07.28-22.10.23:093][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2019.07.28-22.10.23:093][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (16042 MB, 16427248 KB, 16821501952 bytes)
+[2019.07.28-22.10.23:093][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2019.07.28-22.10.23:093][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2019.07.28-22.10.23:295][  0]LogInit: Using OS detected language (en-US).
+[2019.07.28-22.10.23:295][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.28-22.10.23:295][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.28-22.10.23:674][  0]LogStreaming: Display: Took  0.379s to InitEngineTextLocalization.
+[2019.07.28-22.10.23:744][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.28-22.10.23:744][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.28-22.10.25:103][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2019.07.28-22.10.25:121][  0]LogRHI: Initializing OpenGL RHI
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_RENDERER: GeForce RTX 2080/PCIe/SSE2
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 430.34
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2019.07.28-22.10.25:121][  0]LogRHI: OpenGL Extensions:
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_base_instance
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_bindless_texture
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_blend_func_extended
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_buffer_storage
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_clear_texture
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_clip_control
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_color_buffer_float
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_conservative_depth
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_compute_shader
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_copy_buffer
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_copy_image
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_cull_distance
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_debug_output
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_depth_clamp
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_depth_texture
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_derivative_control
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_direct_state_access
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_draw_buffers
+[2019.07.28-22.10.25:121][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_draw_indirect
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_draw_instanced
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_fragment_program
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_fragment_shader
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_fragment_shader_interlock
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_framebuffer_object
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_geometry_shader4
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_get_program_binary
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_gl_spirv
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_gpu_shader5
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_half_float_pixel
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_half_float_vertex
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_imaging
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_indirect_parameters
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_instanced_arrays
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_internalformat_query
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_internalformat_query2
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_map_buffer_range
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_multi_bind
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_multisample
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_multitexture
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_occlusion_query
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_occlusion_query2
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_point_parameters
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_point_sprite
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_polygon_offset_clamp
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_post_depth_coverage
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_program_interface_query
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_provoking_vertex
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_query_buffer_object
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_robustness
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_sample_locations
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_sample_shading
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_sampler_objects
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_shader_ballot
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_shader_clock
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2019.07.28-22.10.25:122][  0]LogRHI:   GL_ARB_shader_group_vote
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shader_image_size
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shader_objects
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shader_precision
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shader_subroutine
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shading_language_100
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shading_language_include
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shading_language_packing
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_shadow
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_sparse_buffer
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_sparse_texture
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_sparse_texture2
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_sparse_texture_clamp
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_spirv_extensions
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_stencil_texturing
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_sync
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_tessellation_shader
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_barrier
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_compression
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_cube_map
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_env_add
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_env_combine
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_filter_anisotropic
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_filter_minmax
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_float
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_gather
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_multisample
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_query_levels
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_query_lod
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_rectangle
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_rg
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_stencil8
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_storage
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_swizzle
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_texture_view
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_timer_query
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_transform_feedback2
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_transform_feedback3
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_transpose_matrix
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_vertex_array_object
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_vertex_program
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_vertex_shader
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_viewport_array
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ARB_window_pos
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ATI_draw_buffers
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ATI_texture_float
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_S3_s3tc
+[2019.07.28-22.10.25:123][  0]LogRHI:   GL_EXT_texture_env_add
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_abgr
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_bgra
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_bindable_uniform
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_blend_color
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_blend_func_separate
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_blend_minmax
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_blend_subtract
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_Cg_shader
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_direct_state_access
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_draw_buffers2
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_draw_instanced
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_draw_range_elements
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_fog_coord
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_framebuffer_object
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_geometry_shader4
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_gpu_shader4
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_packed_float
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_packed_pixels
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_point_parameters
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_post_depth_coverage
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_provoking_vertex
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_raster_multisample
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_rescale_normal
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_secondary_color
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_separate_specular_color
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_shader_image_load_formatted
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_shadow_funcs
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_sparse_texture2
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_stencil_two_side
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_stencil_wrap
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture3D
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_array
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_cube_map
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_env_combine
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_filter_minmax
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_integer
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_lod
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_object
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_sRGB
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_sRGB_R8
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_storage
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_texture_swizzle
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_timer_query
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_transform_feedback2
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_vertex_array
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_window_rectangles
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_x11_sync_object
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_import_sync_object
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_KHR_context_flush_control
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_KHR_debug
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_memory_object
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_memory_object_fd
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_KHR_parallel_shader_compile
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_KHR_no_error
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_KHR_robustness
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_semaphore
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_EXT_semaphore_fd
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_KTX_buffer_region
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2019.07.28-22.10.25:124][  0]LogRHI:   GL_NV_bindless_texture
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_blend_equation_advanced_coherent
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NVX_blend_equation_advanced_multi_draw_buffers
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_blend_minmax_factor
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_blend_square
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_clip_space_w_scaling
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_command_list
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_compute_program5
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_compute_shader_derivatives
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_conditional_render
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_conservative_raster
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_conservative_raster_dilate
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_conservative_raster_pre_snap
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_conservative_raster_pre_snap_triangles
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_conservative_raster_underestimation
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_copy_image
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_depth_buffer_float
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_depth_clamp
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_draw_texture
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_explicit_multisample
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_feature_query
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_fence
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_fill_rectangle
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_float_buffer
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_fog_distance
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_fragment_coverage_to_color
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_fragment_program
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_fragment_program_option
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_fragment_program2
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_fragment_shader_barycentric
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_fragment_shader_interlock
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_framebuffer_mixed_samples
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_geometry_shader4
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_geometry_shader_passthrough
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_gpu_program4
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_gpu_program4_1
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_gpu_program5
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_gpu_shader5
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_half_float
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_light_max_exponent
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_memory_attachment
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_mesh_shader
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_multisample_coverage
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_occlusion_query
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_path_rendering
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_path_rendering_shared_edge
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_pixel_data_range
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_point_sprite
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_primitive_restart
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_query_resource
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_query_resource_tag
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_register_combiners
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_register_combiners2
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_representative_fragment_test
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_sample_locations
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_sample_mask_override_coverage
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_scissor_exclusive
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_shader_atomic_float
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_shader_atomic_float64
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_shader_atomic_fp16_vector
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_shader_atomic_int64
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_shader_buffer_load
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_shader_texture_footprint
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_shading_rate_image
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_stereo_view_rendering
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_texgen_reflection
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_texture_barrier
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_texture_env_combine4
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_texture_multisample
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_texture_rectangle
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_texture_rectangle_compressed
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_texture_shader
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_texture_shader2
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_texture_shader3
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_transform_feedback
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_transform_feedback2
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_vdpau_interop
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_vdpau_interop2
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_vertex_array_range
+[2019.07.28-22.10.25:125][  0]LogRHI:   GL_NV_vertex_array_range2
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NV_vertex_program
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NV_vertex_program1_1
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NV_vertex_program2
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NV_vertex_program2_option
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NV_vertex_program3
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NV_viewport_array2
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NV_viewport_swizzle
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NVX_conditional_render
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NVX_nvenc_interop
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NV_shader_thread_group
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_OVR_multiview
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_OVR_multiview2
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_SGIS_texture_lod
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_SGIX_depth_texture
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_SGIX_shadow
+[2019.07.28-22.10.25:126][  0]LogRHI:   GL_SUN_slice_accum
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 32768
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 32768
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 16384
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 32768
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2019.07.28-22.10.25:127][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2019.07.28-22.10.25:127][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2019.07.28-22.10.25:127][  0]LogRHI: FOpenGLProgramBinaryCache disabled by r.ProgramBinaryCache.Enable=0
+[2019.07.28-22.10.25:148][  0]LogRHI: Texture pool is 5734 MB (70% of 8192 MB)
+[2019.07.28-22.10.25:733][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.28-22.10.25:925][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.28-22.10.26:118][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.28-22.10.26:321][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.28-22.10.26:520][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.28-22.10.26:710][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-22.10.26:962][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2019.07.28-22.10.27:560][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Documents/Unreal Projects/Sim__RWS/Intermediate/Shaders/WorkingDirectory/2930/).
+[2019.07.28-22.10.27:561][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Documents/Unreal Projects/Sim__RWS/Intermediate/Shaders/tmp/000394C708D71386DE7EA02EF0246B59/'.
+[2019.07.28-22.10.27:561][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.28-22.10.28:466][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.28-22.10.28:530][  0]LogDerivedDataCache: Loaded boot cache 0.06s 94MB ../../../../../../Documents/Unreal Projects/Sim__RWS/DerivedDataCache/Boot.ddc.
+[2019.07.28-22.10.28:531][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../../Documents/Unreal Projects/Sim__RWS/DerivedDataCache/Boot.ddc
+[2019.07.28-22.10.28:531][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Unreal Projects/Sim__RWS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.28-22.10.28:531][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.28-22.10.28:531][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.28-22.10.28:531][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2019.07.28-22.10.28:532][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2019.07.28-22.10.28:532][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.28-22.10.28:532][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.28-22.10.28:562][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2019.07.28-22.10.28:571][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.28-22.10.28:572][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2019.07.28-22.10.28:679][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
+[2019.07.28-22.10.29:029][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.07.28-22.10.29:712][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.28-22.10.29:712][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.28-22.10.29:712][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.07.28-22.10.29:712][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.07.28-22.10.29:712][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.07.28-22.10.29:712][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.07.28-22.10.29:730][  0]LogNetVersion: Sim__RWS 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3607067964)
+[2019.07.28-22.10.30:534][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.049739 seconds
+[2019.07.28-22.10.30:547][  0]LogUObjectArray: 38837 objects as part of root set at end of initial load.
+[2019.07.28-22.10.30:547][  0]LogUObjectAllocator: 6741896 out of 0 bytes used by permanent object pool.
+[2019.07.28-22.10.30:547][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.28-22.10.30:885][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2019.07.28-22.10.31:862][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.07.28-22.10.31:862][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.07.28-22.10.31:863][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.07.28-22.10.31:863][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.07.28-22.10.31:863][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.07.28-22.10.31:863][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.07.28-22.10.31:863][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.07.28-22.10.31:863][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.07.28-22.10.31:864][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.07.28-22.10.31:864][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.07.28-22.10.31:864][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.07.28-22.10.31:864][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.07.28-22.10.31:864][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.07.28-22.10.31:864][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.07.28-22.10.31:865][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.07.28-22.10.31:865][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.07.28-22.10.31:865][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.07.28-22.10.31:865][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.07.28-22.10.31:865][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.07.28-22.10.31:865][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.07.28-22.10.31:865][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.07.28-22.10.31:865][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.07.28-22.10.31:866][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.07.28-22.10.31:866][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.07.28-22.10.31:869][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2019.07.28-22.10.31:869][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2019.07.28-22.10.31:869][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:869][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:870][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:870][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:870][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2019.07.28-22.10.31:870][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2019.07.28-22.10.31:870][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:870][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:871][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:871][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:871][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2019.07.28-22.10.31:871][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2019.07.28-22.10.31:871][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:871][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:871][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:871][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:872][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2019.07.28-22.10.31:872][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2019.07.28-22.10.31:872][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:872][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:872][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:872][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:873][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2019.07.28-22.10.31:873][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2019.07.28-22.10.31:873][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:873][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:873][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:873][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:873][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2019.07.28-22.10.31:873][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2019.07.28-22.10.31:874][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:874][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:874][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:874][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:874][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2019.07.28-22.10.31:874][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2019.07.28-22.10.31:875][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:875][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:875][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:875][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:875][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2019.07.28-22.10.31:875][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2019.07.28-22.10.31:876][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:876][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:876][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:876][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:876][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2019.07.28-22.10.31:876][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2019.07.28-22.10.31:876][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:876][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:877][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:877][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:877][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2019.07.28-22.10.31:877][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2019.07.28-22.10.31:877][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:877][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:878][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:878][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:878][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2019.07.28-22.10.31:878][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2019.07.28-22.10.31:878][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:878][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:878][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:878][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:879][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2019.07.28-22.10.31:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2019.07.28-22.10.31:879][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:879][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:880][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2019.07.28-22.10.31:880][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2019.07.28-22.10.31:880][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:880][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:880][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:880][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:880][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2019.07.28-22.10.31:880][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2019.07.28-22.10.31:881][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:881][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:881][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:881][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:881][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2019.07.28-22.10.31:881][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2019.07.28-22.10.31:882][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:882][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:882][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:882][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:882][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2019.07.28-22.10.31:882][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2019.07.28-22.10.31:883][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:883][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:883][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:883][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:883][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2019.07.28-22.10.31:883][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2019.07.28-22.10.31:883][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:883][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:884][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:884][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:884][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2019.07.28-22.10.31:884][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2019.07.28-22.10.31:884][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:884][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.31:885][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.07.28-22.10.31:885][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.07.28-22.10.37:244][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.28-22.10.37:247][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.28-22.10.41:122][  0]SourceControl: Source control is disabled
+[2019.07.28-22.10.41:122][  0]SourceControl: Source control is disabled
+[2019.07.28-22.10.42:123][  0]SourceControl: Source control is disabled
+[2019.07.28-22.10.42:288][  0]SourceControl: Source control is disabled
+[2019.07.28-22.10.42:994][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.28-22.10.47:665][  0]LogEngine: Initializing Engine...
+[2019.07.28-22.10.47:666][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.28-22.10.47:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.28-22.10.47:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.28-22.10.47:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.28-22.10.47:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.28-22.10.47:952][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.28-22.10.48:567][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.28-22.10.48:574][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.07.28-22.10.48:574][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.07.28-22.10.48:574][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.07.28-22.10.48:574][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.07.28-22.10.48:574][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.07.28-22.10.48:574][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.07.28-22.10.48:574][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.07.28-22.10.48:574][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2019.07.28-22.10.48:580][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.07.28-22.10.50:139][  0]LogInit: FAudioDevice initialized.
+[2019.07.28-22.10.50:139][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.28-22.10.50:197][  0]LogDerivedDataCache: Saved boot cache 0.06s 94MB ../../../../../../Documents/Unreal Projects/Sim__RWS/DerivedDataCache/Boot.ddc.
+[2019.07.28-22.10.50:223][  0]LogInit: Texture streaming: Enabled
+[2019.07.28-22.10.50:401][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.28-22.10.50:401][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={0CC4D02B-08D7-1386-4A87-998EFC306379}
+[2019.07.28-22.10.50:967][  0]LogInit: Transaction tracking system initialized
+[2019.07.28-22.10.52:037][  0]BlueprintLog: New page: Editor Load
+[2019.07.28-22.10.55:140][  0]LocalizationService: Localization service is disabled
+[2019.07.28-22.10.57:379][  0]LogFileCache: Scanning file cache for directory '/home/papa/Documents/Unreal Projects/Sim__RWS/Content/' took 0.00s
+[2019.07.28-22.10.57:379][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.28-22.10.57:379][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.28-22.10.57:379][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.28-22.10.57:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.28-22.10.57:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.28-22.10.57:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.28-22.10.57:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.28-22.11.01:639][  0]SourceControl: Source control is disabled
+[2019.07.28-22.11.01:639][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/Sim__RWS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.28-22.11.01:645][  0]LightingResults: New page: Lighting Build
+[2019.07.28-22.11.01:781][  0]MapCheck: New page: Map Check
+[2019.07.28-22.11.01:781][  0]LightingResults: New page: Lighting Build
+[2019.07.28-22.11.01:941][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.28-22.11.01:948][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.28-22.11.01:977][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.28-22.11.01:978][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.372ms to complete.
+[2019.07.28-22.11.01:978][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.339
+[2019.07.28-22.11.01:992][  0]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.01:992][  0]LogLinux: Scale at X=993.500000, Y=553.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.02:024][  0]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.02:049][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-22.11.02:057][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-22.11.02:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-22.11.02:072][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-22.11.02:081][  0]LogCollectionManager: Loaded 0 collections in 0.002690 seconds
+[2019.07.28-22.11.02:094][  0]LogFileCache: Scanning file cache for directory '/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Collections/' took 0.00s
+[2019.07.28-22.11.02:094][  0]LogFileCache: Scanning file cache for directory '/home/papa/Documents/Unreal Projects/Sim__RWS/Content/Developers/papa/Collections/' took 0.00s
+[2019.07.28-22.11.02:094][  0]LogFileCache: Scanning file cache for directory '/home/papa/Documents/Unreal Projects/Sim__RWS/Content/Collections/' took 0.00s
+[2019.07.28-22.11.02:094][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2670 classes and 602 folders.
+[2019.07.28-22.11.02:098][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.07.28-22.11.02:400][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.28-22.11.02:402][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:409][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:409][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.28-22.11.02:420][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.28-22.11.02:570][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.07.28-22.11.02:823][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.28-22.11.02:823][  0]LogLoad: (Engine Initialization) Total time: 42.95 seconds
+[2019.07.28-22.11.02:823][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.28-22.11.02:833][  0]LogRHI: Using OpenGL program LRU cache: 0
+[2019.07.28-22.11.02:833][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.28-22.11.02:837][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.28-22.11.02:847][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.28-22.11.02:971][  0]LogInit: Adding external input plugin.
+[2019.07.28-22.11.03:018][  0]LogRenderer: Reallocating scene render targets to support 1168x584 Format 10 NumSamples 1 (Frame:1).
+[2019.07.28-22.11.03:018][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.28-22.11.03:149][  0]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.11.03:193][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.28-22.11.03:268][  2]LogAssetRegistry: Asset discovery search completed in 34.5892 seconds
+[2019.07.28-22.11.03:269][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.28-22.11.03:269][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2019.07.28-22.11.05:516][267]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.05:572][268]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.11.09:329][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-22.11.09:524][662]LogLinux: Scale at X=469.500000, Y=594.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.09:652][664]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.11.10:271][736]LogLinux: Scale at X=678.500000, Y=903.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.10:319][737]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.11.13:853][145]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.13:853][145]LogLinux: Scale at X=955.000000, Y=373.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.13:855][145]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.13:855][145]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.13:856][145]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.13:885][145]LogSlate: Took 0.000064 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.28-22.11.14:017][145]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.11.14:026][145]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.14:090][145]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.11.24:230][145]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.07.28-22.11.47:460][928]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.47:460][928]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.47:461][928]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.47:586][928]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/MyROSinstance.MyROSinstance
+[2019.07.28-22.11.47:590][928]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.11.47:601][928]LogLinux: Scale at X=422.000000, Y=64.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.47:601][928]LogLinux: Scale at X=1029.000000, Y=411.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.48:303][928]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 117 classes and 0 folders.
+[2019.07.28-22.11.49:008][928]LogSlate: Took 0.000072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.28-22.11.49:049][930]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.11.54:240][484]BlueprintLog: New page: Compile MyROSinstance
+[2019.07.28-22.11.54:823][538]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.54:823][538]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.54:828][538]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.54:957][538]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.11.54:961][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/MyROSinstance" FILE="../../../../../../Documents/Unreal Projects/Sim__RWS/Content/ThirdPersonCPP/MyROSinstance.uasset" SILENT=true
+[2019.07.28-22.11.54:964][538]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Sim__RWS/Saved/MyROSinstanceA480F78A08D713871296E600F55A1062.tmp' to '../../../../../../Documents/Unreal Projects/Sim__RWS/Content/ThirdPersonCPP/MyROSinstance.uasset'
+[2019.07.28-22.11.58:223][868]LogLinux: Scale at X=422.000000, Y=64.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.11.58:223][868]LogSlate: Window 'MyROSinstance' being destroyed
+[2019.07.28-22.11.58:226][868]LogSlate: Window 'MyROSinstance' being destroyed
+[2019.07.28-22.12.08:427][ 54]LogLinux: Scale at X=540.500000, Y=566.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.12.08:553][ 56]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.12.09:126][123]LogLinux: Scale at X=735.500000, Y=922.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.12.09:251][124]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.12.10:408][250]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.12.10:408][250]LogLinux: Scale at X=485.000000, Y=253.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.12.10:417][250]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.12.10:552][250]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.12.30:873][634]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.12.30:873][634]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.12.30:876][634]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.12.31:004][634]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.12.31:017][634]Running /home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -game -engine -progress
+[2019.07.28-22.12.31:117][634]
+[2019.07.28-22.12.31:117][634]Running Mono...
+[2019.07.28-22.12.31:117][634]
+[2019.07.28-22.12.31:217][634]Fixing inconsistent case in filenames.
+[2019.07.28-22.12.31:217][634]Setting up Mono
+[2019.07.28-22.12.31:217][634]~/Desktop/unreal/UnrealEngine/Engine ~/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux
+[2019.07.28-22.12.31:417][634]Discovering modules, targets and source code for project...
+[2019.07.28-22.12.32:718][634]Generating data for project indexing...
+[2019.07.28-22.12.35:736][634]BSONPath: /home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/ThirdParty/bson
+[2019.07.28-22.12.35:736][634]Using Linux BSON files
+[2019.07.28-22.12.35:937][634]Generating data for project indexing... 100%
+[2019.07.28-22.12.35:937][634]Discovering modules, targets and source code for project...
+[2019.07.28-22.12.36:838][634]Generating data for project indexing...
+[2019.07.28-22.12.39:560][634]BSONPath: /home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/ThirdParty/bson
+[2019.07.28-22.12.39:560][634]Using Linux BSON files
+[2019.07.28-22.12.39:761][634]Generating data for project indexing... 100%
+[2019.07.28-22.12.39:761][634]Writing project files...
+[2019.07.28-22.12.39:862][634]Writing project files... 100%
+[2019.07.28-22.12.39:862][634]Discovering modules, targets and source code for project...
+[2019.07.28-22.12.40:662][634]Generating data for project indexing...
+[2019.07.28-22.12.43:484][634]BSONPath: /home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/ThirdParty/bson
+[2019.07.28-22.12.43:484][634]Using Linux BSON files
+[2019.07.28-22.12.43:686][634]Generating data for project indexing... 100%
+[2019.07.28-22.12.43:686][634]Discovering modules, targets and source code for project...
+[2019.07.28-22.12.44:586][634]Generating data for project indexing...
+[2019.07.28-22.12.47:394][634]BSONPath: /home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/ThirdParty/bson
+[2019.07.28-22.12.47:394][634]Using Linux BSON files
+[2019.07.28-22.12.47:595][634]Generating data for project indexing... 100%
+[2019.07.28-22.13.04:207][634]Discovering modules, targets and source code for project...
+[2019.07.28-22.13.05:107][634]Generating data for project indexing...
+[2019.07.28-22.13.08:015][634]BSONPath: /home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/ThirdParty/bson
+[2019.07.28-22.13.08:015][634]Using Linux BSON files
+[2019.07.28-22.13.08:116][634]Generating data for project indexing... 100%
+[2019.07.28-22.13.10:418][634]Discovering modules, targets and source code for project...
+[2019.07.28-22.13.11:318][634]Generating data for project indexing...
+[2019.07.28-22.13.14:130][634]BSONPath: /home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/ThirdParty/bson
+[2019.07.28-22.13.14:130][634]Using Linux BSON files
+[2019.07.28-22.13.14:231][634]Generating data for project indexing... 100%
+[2019.07.28-22.13.14:232][634]Writing project files...
+[2019.07.28-22.13.16:492][634]Writing project files... 100%
+[2019.07.28-22.13.16:606][634]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.16:606][634]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.16:606][634]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.16:637][634]Candidate modules for hot reload:
+[2019.07.28-22.13.16:637][634]  Sim__RWS
+[2019.07.28-22.13.16:637][634]Building UnrealBuildTool...
+[2019.07.28-22.13.16:637][634]Building UnrealBuildTool in /home/papa/Desktop/unreal/UnrealEngine/...
+[2019.07.28-22.13.16:637][634]Running: /bin/bash "/home/papa/Desktop/unreal/UnrealEngine/Engine/Build/BatchFiles/Linux/RunXBuild.sh" /property:Configuration=Development /property:TargetFrameworkVersion=v4.0 /home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj
+[2019.07.28-22.13.17:137][634]Launching UnrealBuildTool... [/home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Sim__RWS,36 Linux Development -TargetType=Editor -Project="../../../../../../Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" -canskiplink "/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject"  -progress]
+[2019.07.28-22.13.17:345][634]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.13.44:693][634]CompilerResultsLog: New page: Compilation - Jul 28, 2019, 2:13:44 PM
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: 
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Running Mono...
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: 
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Setting up Mono
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: ~/Desktop/unreal/UnrealEngine/Engine ~/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/papa/Desktop/unreal/UnrealEngine).
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Creating makefile for hot reloading Sim__RWSEditor (no existing makefile)
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: BSONPath: /home/papa/Documents/Unreal Projects/Sim__RWS/Plugins/ROSIntegration/ThirdParty/bson
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using Linux BSON files
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress push 5%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Generating code...' 0%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Building UnrealHeaderTool...
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/papa/Desktop/unreal/UnrealEngine).
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Creating makefile for UnrealHeaderTool (no existing makefile)
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: ------- Build details --------
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using toolchain located at '/home/papa/Desktop/unreal/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu'.
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using clang (/home/papa/Desktop/unreal/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '6.0.1' (string), 6 (major), 0 (minor), 1 (patch)
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using bundled libc++ standard C++ library.
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using lld linker
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using llvm-ar : /home/papa/Desktop/unreal/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using fast way to relink  circularly dependent libraries (no FixDeps).
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: ------------------------------
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Target is up to date
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Total build time: 1.26 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Generating code...' 33%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Parsing headers for Sim__RWSEditor
+[2019.07.28-22.13.44:694][634]CompilerResultsLog:   Running UnrealHeaderTool "/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject" "/home/papa/Documents/Unreal Projects/Sim__RWS/Intermediate/Build/Linux/B4D820EA/Sim__RWSEditor/Development/Sim__RWSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Reflection code generated for Sim__RWSEditor in 8.4899614 seconds
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Generating code...' 67%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Generating code...' 100%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress pop
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: ------- Build details --------
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using toolchain located at '/home/papa/Desktop/unreal/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu'.
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using clang (/home/papa/Desktop/unreal/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '6.0.1' (string), 6 (major), 0 (minor), 1 (patch)
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using bundled libc++ standard C++ library.
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using lld linker
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using llvm-ar : /home/papa/Desktop/unreal/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Using fast way to relink  circularly dependent libraries (no FixDeps).
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: ------------------------------
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: Performing 11 actions (10 in parallel)
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Compiling C++ source code...' 0%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: [3/11] Compile Sim__RWS.init.gen.cpp
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: [2/11] Compile Sim__RWSCharacter.gen.cpp
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: [8/11] Compile Sim__RWS.cpp
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: [6/11] Compile Sim__RWSGameMode.cpp
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: [10/11] Compile M2GunPawn.cpp
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: [9/11] Compile MyROSIntegrationGameInstance.cpp
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: [1/11] Compile Sim__RWSGameMode.gen.cpp
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: [4/11] Compile MyROSIntegrationGameInstance.gen.cpp
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: [5/11] Compile M2GunPawn.gen.cpp
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: [7/11] Compile Sim__RWSCharacter.cpp
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Compiling C++ source code...' 8%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Compiling C++ source code...' 25%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Compiling C++ source code...' 33%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Compiling C++ source code...' 42%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Compiling C++ source code...' 50%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Compiling C++ source code...' 58%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Compiling C++ source code...' 67%
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: [11/11] Link (ld) libUE4Editor-Sim__RWS-36.so
+[2019.07.28-22.13.44:694][634]CompilerResultsLog: @progress 'Compiling C++ source code...' 92%
+[2019.07.28-22.13.44:695][634]CompilerResultsLog: Total build time: 27.11 seconds (Local executor: 10.31 seconds)
+[2019.07.28-22.13.44:695][634]LogMainFrame: MainFrame: Module compiling took 28.089 seconds
+[2019.07.28-22.13.44:865][634]LogClass: Could not find existing class M2GunPawn in package /Script/Sim__RWS for HotReload, assuming new class
+[2019.07.28-22.13.44:865][634]LogClass: Could not find existing class MyROSIntegrationGameInstance in package /Script/Sim__RWS for HotReload, assuming new class
+[2019.07.28-22.13.44:874][634]LogContentBrowser: Native class hierarchy updated for 'Sim__RWS' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2019.07.28-22.13.44:877][634]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.28-22.13.45:356][634]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2673 classes and 604 folders.
+[2019.07.28-22.13.45:356][634]Display: HotReload took 28.8s.
+[2019.07.28-22.13.45:376][634]Warning: HotReload operation took 28.8s.
+[2019.07.28-22.13.45:392][634]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.45:392][634]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.45:392][634]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.45:438][634]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.07.28-22.13.45:455][634]LogHotReload: New module detected: libUE4Editor-Sim__RWS-36.so
+[2019.07.28-22.13.45:455][634]LogHotReload: New module detected: libUE4Editor-Sim__RWS-36.so
+[2019.07.28-22.13.45:505][635]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.28-22.13.45:505][635]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.45:505][635]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.45:506][635]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.45:661][635]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.13.45:681][635]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.13.45:784][635]LogContentBrowser: Native class hierarchy updated for 'Sim__RWS' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2019.07.28-22.13.45:788][635]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.28-22.13.46:099][635]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2673 classes and 604 folders.
+[2019.07.28-22.13.46:099][635]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.46:099][635]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.46:099][635]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.46:132][635]Display: HotReload took  0.6s.
+[2019.07.28-22.13.46:188][636]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.13.54:084][565]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.54:084][565]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.54:085][565]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.13.54:112][565]LogAssetEditorManager: Opening Asset editor for Class /Script/Sim__RWS.M2GunPawn
+[2019.07.28-22.13.54:117][565]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.14.03:113][802]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (16.971 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.28-22.18.27:108][726]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.27:108][726]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.27:109][726]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.27:227][726]LogAssetEditorManager: Opening Asset editor for Class /Script/Sim__RWS.M2GunPawn
+[2019.07.28-22.18.27:231][726]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.18.33:131][420]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.33:131][420]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.33:132][420]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.33:249][420]LogAssetEditorManager: Opening Asset editor for Class /Script/Sim__RWS.M2GunPawn
+[2019.07.28-22.18.33:255][420]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.18.35:288][663]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.35:288][663]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.35:290][663]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.35:309][663]LogAssetEditorManager: Opening Asset editor for Class /Script/Sim__RWS.M2GunPawn
+[2019.07.28-22.18.35:309][663]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.18.38:146][990]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.38:146][990]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.38:150][990]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.38:269][990]LogAssetEditorManager: Opening Asset editor for Class /Script/Sim__RWS.M2GunPawn
+[2019.07.28-22.18.38:273][990]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.18.39:137][ 92]LogLinux: Scale at X=267.000000, Y=694.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.39:267][ 94]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.18.45:562][824]LogLinux: Scale at X=239.000000, Y=699.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.45:690][826]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.18.51:096][463]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.51:097][463]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.51:101][463]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.51:219][463]LogAssetEditorManager: Opening Asset editor for Class /Script/Sim__RWS.M2GunPawn
+[2019.07.28-22.18.51:223][463]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.18.53:450][712]LogLinux: Scale at X=192.500000, Y=355.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.53:578][714]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.18.54:791][837]LogLinux: Scale at X=357.500000, Y=597.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.54:817][837]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.18.56:027][951]LogLinux: Scale at X=351.000000, Y=226.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.56:172][953]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.18.57:662][119]LogLinux: Scale at X=278.000000, Y=289.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.57:662][119]LogLinux: Scale at X=885.000000, Y=636.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.18.58:290][120]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.20.13:415][773]LogLinux: Scale at X=278.000000, Y=289.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.13:415][773]LogSlate: Window 'Project Settings' being destroyed
+[2019.07.28-22.20.13:420][773]LogSlate: Window 'Project Settings' being destroyed
+[2019.07.28-22.20.15:722][ 13]LogLinux: Scale at X=351.000000, Y=226.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.15:848][ 15]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.20.17:388][190]LogLinux: Scale at X=278.000000, Y=289.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.17:389][190]LogLinux: Scale at X=885.000000, Y=636.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.18:094][191]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.20.23:142][731]LogLinux: Scale at X=930.500000, Y=482.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.23:272][732]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.20.28:087][272]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.28:088][272]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.28:089][272]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.28:136][272]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.20.29:801][272]LogSlate: Window 'Message' being destroyed
+[2019.07.28-22.20.29:818][272]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.29:818][272]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.29:820][272]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.29:883][272]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.20.30:812][272]LogSlate: Window 'Message' being destroyed
+[2019.07.28-22.20.31:703][365]LogLinux: Scale at X=278.000000, Y=289.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.31:703][365]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.07.28-22.20.31:705][365]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.07.28-22.20.33:063][508]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.33:063][508]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.33:065][508]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.20.33:083][508]LogAssetEditorManager: Opening Asset editor for Class /Script/Sim__RWS.M2GunPawn
+[2019.07.28-22.20.33:085][508]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.32.43:568][828]LogLinux: Scale at X=235.000000, Y=226.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.32.43:697][830]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-22.32.45:536][ 36]LogLinux: Scale at X=278.000000, Y=289.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.32.45:536][ 36]LogLinux: Scale at X=885.000000, Y=636.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-22.32.45:966][ 37]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-23.02.54:917][235]LogLinux: Scale at X=278.000000, Y=289.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-23.02.54:917][235]LogSlate: Window 'Project Settings' being destroyed
+[2019.07.28-23.02.54:920][235]LogSlate: Window 'Project Settings' being destroyed
+[2019.07.28-23.02.55:894][336]LogLinux: Scale at X=174.000000, Y=366.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-23.02.56:021][338]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-23.02.58:106][568]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-23.02.58:106][568]LogLinux: Scale at X=405.000000, Y=153.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-23.02.58:109][568]LogUProjectInfo: Found projects:
+[2019.07.28-23.02.58:112][568]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-23.02.58:252][569]LogLinux: Setting swap interval to 'Immediate'
+[2019.07.28-23.02.59:135][667]Cmd: CLOSE_SLATE_MAINFRAME
+[2019.07.28-23.02.59:190][667]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.28-23.02.59:242][667]LogSlate: Window 'Open Project' being destroyed
+[2019.07.28-23.02.59:245][667]LogSlate: Window 'Sim__RWS - Unreal Editor' being destroyed
+[2019.07.28-23.02.59:457][668]Cmd: QUIT_EDITOR
+[2019.07.28-23.02.59:471][668]LogHAL: Warning: Process (pid=12200) is still running - we will reap it in a waiter thread, but the thread handle is going to be leaked.
+[2019.07.28-23.02.59:535][668]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.28-23.02.59:535][668]LogExit: Preparing to exit.
+[2019.07.28-23.02.59:700][668]LogExit: Editor shut down
+[2019.07.28-23.02.59:702][668]LogExit: Transaction tracking system shut down
+[2019.07.28-23.02.59:957][668]LogExit: Object subsystem successfully closed.
+[2019.07.28-23.02.59:963][668]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.28-23.02.59:996][668]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (556)
+[2019.07.28-23.02.59:996][668]LogModuleManager: Shutting down and abandoning module Sim__RWS (554)
+[2019.07.28-23.02.59:996][668]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2019.07.28-23.02.59:996][668]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2019.07.28-23.02.59:996][668]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2019.07.28-23.02.59:996][668]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module StatsViewer (538)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module FoliageEdit (536)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module LandscapeEditor (534)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module MeshPaintMode (532)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (530)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module ActorPickerMode (528)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module GeometryMode (526)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module TextureAlignMode (524)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module BspMode (522)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (520)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (518)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module AutomationWorker (516)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (514)
+[2019.07.28-23.02.59:997][668]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (512)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module PlacementMode (511)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module MaterialEditor (510)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (506)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (502)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (500)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (498)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (496)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (494)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (492)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (490)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module WebMMedia (488)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (486)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module SequenceRecorder (485)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (482)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (480)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (478)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (476)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module SmartSnapping (474)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module SessionServices (472)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module ViewportSnapping (470)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module ViewportInteraction (468)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module ClothPainter (466)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (465)
+[2019.07.28-23.02.59:998][668]LogModuleManager: Shutting down and abandoning module LogVisualizer (462)
+[2019.07.28-23.02.59:999][668]LogModuleManager: Shutting down and abandoning module IntroTutorials (460)
+[2019.07.28-23.02.59:999][668]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (459)
+[2019.07.28-23.02.59:999][668]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (456)
+[2019.07.28-23.02.59:999][668]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (455)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (452)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module LinuxPlatformEditor (450)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (448)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (446)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module InputBindingEditor (444)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module MergeActors (442)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (440)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module LocalizationService (439)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module HardwareTargeting (436)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (434)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module UndoHistory (432)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module XmlParser (430)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module Blutility (428)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (426)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (425)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (422)
+[2019.07.28-23.03.00:442][668]LogModuleManager: Shutting down and abandoning module SettingsEditor (420)
+[2019.07.28-23.03.00:443][668]LogModuleManager: Shutting down and abandoning module ProjectLauncher (418)
+[2019.07.28-23.03.00:443][668]LogModuleManager: Shutting down and abandoning module SessionFrontend (416)
+[2019.07.28-23.03.00:443][668]LogModuleManager: Shutting down and abandoning module ProfilerClient (414)
+[2019.07.28-23.03.00:443][668]LogModuleManager: Shutting down and abandoning module DeviceManager (412)
+[2019.07.28-23.03.00:443][668]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (411)
+[2019.07.28-23.03.00:463][668]LogModuleManager: Shutting down and abandoning module AutomationController (408)
+[2019.07.28-23.03.00:463][668]LogModuleManager: Shutting down and abandoning module AutomationWindow (406)
+[2019.07.28-23.03.00:463][668]LogModuleManager: Shutting down and abandoning module Layers (404)
+[2019.07.28-23.03.00:463][668]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (402)
+[2019.07.28-23.03.00:463][668]LogModuleManager: Shutting down and abandoning module DetailCustomizations (400)
+[2019.07.28-23.03.00:463][668]LogModuleManager: Shutting down and abandoning module PackagesDialog (398)
+[2019.07.28-23.03.00:464][668]LogModuleManager: Shutting down and abandoning module Persona (396)
+[2019.07.28-23.03.00:464][668]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (395)
+[2019.07.28-23.03.00:464][668]LogModuleManager: Shutting down and abandoning module AnimGraph (393)
+[2019.07.28-23.03.00:464][668]LogModuleManager: Shutting down and abandoning module Kismet (390)
+[2019.07.28-23.03.00:468][668]LogModuleManager: Shutting down and abandoning module GraphEditor (388)
+[2019.07.28-23.03.00:468][668]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module DesktopPlatform (383)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module ModuleUI (380)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module MovieSceneTools (378)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module OutputLog (376)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module GammaUI (374)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module Documentation (372)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (370)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module MovieScene (368)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (366)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module LauncherPlatform (364)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module AnalyticsET (362)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module PortalServices (360)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module PortalRpc (358)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module MessagingRpc (356)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module AIModule (354)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module GameplayDebugger (353)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module AITestSuite (351)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module NavigationSystem (349)
+[2019.07.28-23.03.00:470][668]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (346)
+[2019.07.28-23.03.00:471][668]LogModuleManager: Shutting down and abandoning module ProfilerService (344)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module TaskGraph (342)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module ROSIntegration (340)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (338)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (336)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (335)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (332)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (331)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module AppleVisionBlueprintSupport (328)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module AppleVision (326)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module AlembicImporter (324)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module AlembicLibrary (323)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module GeometryCache (322)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (321)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module BackChannel (316)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (314)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module AppleImageUtils (312)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module LinearTimecode (310)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module MediaCompositing (308)
+[2019.07.28-23.03.00:563][668]LogModuleManager: Shutting down and abandoning module ImgMedia (306)
+[2019.07.28-23.03.00:564][668]LogModuleManager: Shutting down and abandoning module Media (305)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (302)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (296)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (294)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module AndroidPermission (292)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module CableComponent (290)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module EditableMesh (288)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module SteamVRController (286)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module KDevelopSourceCodeAccess (284)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (282)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module UObjectPlugin (280)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module GitSourceControl (278)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module CodeLiteSourceCodeAccess (276)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (274)
+[2019.07.28-23.03.00:569][668]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (272)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (270)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (268)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (266)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module SourceControl (265)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (254)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module CryptoKeys (252)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module PolygonModeling (250)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module MeshEditor (248)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module PluginBrowser (246)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (244)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (242)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (240)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module VariantManagerContent (238)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module AISupportModule (234)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (232)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module ActorSequence (230)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (228)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (222)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module NullSourceCodeAccess (220)
+[2019.07.28-23.03.00:570][668]LogModuleManager: Shutting down and abandoning module TcpMessaging (218)
+[2019.07.28-23.03.00:670][668]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2019.07.28-23.03.00:771][668]LogModuleManager: Shutting down and abandoning module Paper2D (214)
+[2019.07.28-23.03.00:771][668]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (212)
+[2019.07.28-23.03.00:771][668]LogModuleManager: Shutting down and abandoning module FacialAnimation (210)
+[2019.07.28-23.03.00:771][668]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (208)
+[2019.07.28-23.03.00:771][668]LogModuleManager: Shutting down and abandoning module DataValidation (206)
+[2019.07.28-23.03.00:771][668]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (204)
+[2019.07.28-23.03.00:771][668]LogModuleManager: Shutting down and abandoning module LevelEditor (203)
+[2019.07.28-23.03.00:772][668]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (202)
+[2019.07.28-23.03.00:772][668]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (200)
+[2019.07.28-23.03.00:772][668]LogModuleManager: Shutting down and abandoning module MainFrame (198)
+[2019.07.28-23.03.00:772][668]LogModuleManager: Shutting down and abandoning module HotReload (197)
+[2019.07.28-23.03.00:772][668]LogModuleManager: Shutting down and abandoning module ContentBrowser (193)
+[2019.07.28-23.03.00:773][668]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2019.07.28-23.03.00:773][668]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (188)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module PacketHandler (186)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (184)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (182)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module MediaAssets (180)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module Overlay (178)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module OverlayEditor (177)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module VREditor (174)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module StringTableEditor (172)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (170)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (168)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module FunctionalTesting (166)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (164)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (163)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module UMG (160)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module UMGEditor (159)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module Sequencer (158)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module MessageLog (155)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module SlateReflector (150)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module Slate (148)
+[2019.07.28-23.03.00:774][668]LogModuleManager: Shutting down and abandoning module EditorStyle (146)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module MRMesh (144)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module Messaging (142)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (140)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (138)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module AudioMixerSDL (136)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module Networking (134)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module Core (132)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module LevelSequence (130)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module KismetCompiler (128)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (125)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (124)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (123)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module MaterialBaking (119)
+[2019.07.28-23.03.00:776][668]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2019.07.28-23.03.00:967][668]LogModuleManager: Shutting down and abandoning module DerivedDataCache (112)
+[2019.07.28-23.03.00:987][668]LogDerivedDataCache: Shutdown
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module TargetPlatform (110)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (109)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (107)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (105)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (103)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (101)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (99)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (97)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (95)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module ImageWrapper (94)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (91)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (89)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (87)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (85)
+[2019.07.28-23.03.00:987][668]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (83)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (81)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (79)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (77)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (75)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (73)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module VulkanRHI (68)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (60)
+[2019.07.28-23.03.00:993][668]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (58)
+[2019.07.28-23.03.00:994][668]LogModuleManager: Shutting down and abandoning module XMPP (53)
+[2019.07.28-23.03.00:994][668]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.07.28-23.03.00:994][668]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.07.28-23.03.00:994][668]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0CC4DC37-08D7-1386-EC04-47DAF17E96DE%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.21.2-0%2B%2B%2BUE4%2BRelease-4.21&UserID=00027cec08d71324365e7c3c2d5f77f0%7C%7C6102ecf329574982b842cc840699a3e3&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2019.07.28-23.03.01:002][668]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.07.28-23.03.01:003][668]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (46)
+[2019.07.28-23.03.01:003][668]LogModuleManager: Shutting down and abandoning module LinuxDeviceProfileSelector (42)
+[2019.07.28-23.03.01:003][668]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (40)
+[2019.07.28-23.03.01:003][668]LogModuleManager: Shutting down and abandoning module SteamVR (38)
+[2019.07.28-23.03.01:003][668]LogHMD: Freeing OpenVRDLLHandle.
+[2019.07.28-23.03.01:003][668]LogModuleManager: Shutting down and abandoning module DatasmithContent (36)
+[2019.07.28-23.03.01:003][668]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2019.07.28-23.03.01:003][668]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2019.07.28-23.03.01:003][668]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2019.07.28-23.03.01:003][668]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2019.07.28-23.03.01:004][668]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2019.07.28-23.03.01:004][668]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2019.07.28-23.03.01:004][668]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2019.07.28-23.03.01:005][668]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2019.07.28-23.03.01:005][668]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.07.28-23.03.01:005][668]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.07.28-23.03.01:005][668]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.07.28-23.03.01:005][668]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.07.28-23.03.01:005][668]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.07.28-23.03.01:005][668]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.07.28-23.03.01:005][668]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.07.28-23.03.01:005][668]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.07.28-23.03.01:005][668]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.07.28-23.03.01:006][668]LogExit: Exiting.
+[2019.07.28-23.03.01:006][668]LogInit: Tearing down SDL.
+[2019.07.28-23.03.01:021][668]Log file closed, 07/28/19 19:03:01

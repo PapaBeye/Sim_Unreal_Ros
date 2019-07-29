@@ -1,0 +1,8 @@
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Classes/Tasks/GameplayTask_ClaimResource.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Classes/Tasks/GameplayTask_SpawnActor.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Classes/Tasks/GameplayTask_TimeLimitedExecution.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Classes/Tasks/GameplayTask_WaitDelay.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTask.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTaskOwnerInterface.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTaskResource.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTasksComponent.h

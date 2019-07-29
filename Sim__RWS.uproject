@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0004BE72-08D7-1324-366C-3FDE2D60D84D}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Sim__RWS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"ROSIntegration",
+				"Engine"
+			]
+		}
+	]
+}

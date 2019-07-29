@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Sim__RWS Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Mac",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"IOS",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"HTML5",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"Linux",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Shipping",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWS TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWS TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWS",
+				"TVOS",
+				"Test",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Linux",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Linux",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWSEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Linux",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Linux",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Linux",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWSEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Linux",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Linux",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Linux",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWSEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Linux",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Mac",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Mac",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWSEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Mac",
+				"Debug",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Mac",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Mac",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWSEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Mac",
+				"DebugGame",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Mac",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Mac",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sim__RWSEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Sim__RWSEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Sim__RWSEditor",
+				"Mac",
+				"Development",
+				"/home/papa/Documents/Unreal Projects/Sim__RWS/Sim__RWS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/papa/Desktop/unreal/UnrealEngine"
+			}
+		}
+	]
+}

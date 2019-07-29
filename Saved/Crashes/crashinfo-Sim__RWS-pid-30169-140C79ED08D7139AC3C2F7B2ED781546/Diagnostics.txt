@@ -1,0 +1,36 @@
+Generating report for minidump
+
+Application version 4.21.2.0
+ ... built from changelist 0
+
+OS version Linux 4.18.0-25-generic (network name: bae)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000000"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-ROSIntegration.so!UTopic::Impl::Init(UROSIntegrationCore*, FString const&, FString const&, int) [/home/papa/Documents/Unreal Projects/Sim_RWS/Plugins/ROSIntegration/Source/ROSIntegration/Private/Topic.cpp:130]
+libUE4Editor-Sim__RWS-557.so!AM2GunPawn::BeginPlay() [/home/papa/Documents/Unreal Projects/Sim__RWS/Source/Sim__RWS/M2GunPawn.cpp:41]
+libUE4Editor-Engine.so!AActor::DispatchBeginPlay() [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/Engine/Private/Actor.cpp:3228]
+libUE4Editor-Engine.so!AWorldSettings::NotifyBeginPlay() [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/Engine/Private/WorldSettings.cpp:251]
+libUE4Editor-Engine.so!AGameStateBase::HandleBeginPlay() [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/Engine/Private/GameStateBase.cpp:176]
+libUE4Editor-Engine.so!UWorld::BeginPlay() [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/Engine/Private/World.cpp:3736]
+libUE4Editor-Engine.so!UGameInstance::StartPlayInEditorGameInstance(ULocalPlayer*, FGameInstancePIEParameters const&) [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/Engine/Private/GameInstance.cpp:408]
+libUE4Editor-UnrealEd.so!UEditorEngine::CreatePIEGameInstance(int, bool, bool, bool, bool, bool, float) [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:3324]
+libUE4Editor-UnrealEd.so!UEditorEngine::PlayInEditor(UWorld*, bool, FPlayInEditorOverrides) [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:2449]
+libUE4Editor-UnrealEd.so!UEditorEngine::StartQueuedPlayMapRequest() [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:1265]
+libUE4Editor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/EditorEngine.cpp:1640]
+libUE4Editor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/UnrealEdEngine.cpp:400]
+UE4Editor!FEngineLoop::Tick() [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3693]
+UE4Editor!GuardedMain(char16_t const*) [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:176]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:245]
+libc.so.6!__libc_start_main(+0xe6)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

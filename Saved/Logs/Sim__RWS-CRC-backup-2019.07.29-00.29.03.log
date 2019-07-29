@@ -1,0 +1,132 @@
+﻿Log file open, 07/28/19 20:28:54
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 4 named threads and 11 total threads with 1 sets of task threads.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Build: ++UE4+Release-4.21-CL-0
+LogInit: Engine Version: 4.21.2-0+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-0+++UE4+Release-4.21
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jul 28 2019 06:30:54
+LogInit: Compiled with Clang: 6.0.1 (tags/RELEASE_601/final)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -Abslog="/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Logs/Sim__RWS-CRC.log" "/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Crashes/crashinfo-Sim__RWS-pid-25403-15A2969B08D7139A359154A2DF402FED/"
+LogInit: Base Directory: /home/papa/Desktop/unreal/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/papa/.config/Epic/CrashReportClient/Saved/Config/Linux/Engine.ini]
+[2019.07.29-00.28.54:219][  0]LogInit: Unix hardware info:
+[2019.07.29-00.28.54:219][  0]LogInit:  - we are the first instance of this executable
+[2019.07.29-00.28.54:219][  0]LogInit:  - this process' id (pid) is 29790, parent process' id (ppid) is 25403
+[2019.07.29-00.28.54:219][  0]LogInit:  - we are not running under debugger
+[2019.07.29-00.28.54:219][  0]LogInit:  - machine network name is 'bae'
+[2019.07.29-00.28.54:220][  0]LogInit:  - user name is 'papa' (papa)
+[2019.07.29-00.28.54:220][  0]LogInit:  - we're logged in locally
+[2019.07.29-00.28.54:220][  0]LogInit:  - we're running with rendering
+[2019.07.29-00.28.54:220][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 7 1700 Eight-Core Processor          ' (signature: 0x800F11)
+[2019.07.29-00.28.54:220][  0]LogInit:  - Number of physical cores available for the process: 8
+[2019.07.29-00.28.54:220][  0]LogInit:  - Number of logical cores available for the process: 16
+[2019.07.29-00.28.54:220][  0]LogInit:  - Cache line size: 64
+[2019.07.29-00.28.54:220][  0]LogInit:  - Memory allocator used: binned2
+[2019.07.29-00.28.54:220][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_REALTIME will be used.
+[2019.07.29-00.28.54:220][  0]LogInit: Unix-specific commandline switches:
+[2019.07.29-00.28.54:220][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2019.07.29-00.28.54:220][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2019.07.29-00.28.54:220][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2019.07.29-00.28.54:220][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2019.07.29-00.28.54:220][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2019.07.29-00.28.54:220][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2019.07.29-00.28.54:220][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2019.07.29-00.28.54:220][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2019.07.29-00.28.54:220][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2019.07.29-00.28.54:220][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (16042 MB, 16427248 KB, 16821501952 bytes)
+[2019.07.29-00.28.54:220][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2019.07.29-00.28.54:220][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2019.07.29-00.28.54:249][  0]LogAssetRegistry: FAssetRegistry took 0.0136 seconds to start up
+[2019.07.29-00.28.54:249][  0]LogUObjectArray: 1040 objects as part of root set at end of initial load.
+[2019.07.29-00.28.54:249][  0]LogUObjectAllocator: 153328 out of 0 bytes used by permanent object pool.
+[2019.07.29-00.28.54:249][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.29-00.28.54:249][  0]LogInit: Using OS detected language (en-US).
+[2019.07.29-00.28.54:249][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.29-00.28.54:249][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2019.07.29-00.28.54:249][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2019.07.29-00.28.54:268][  0]LogInit: Using OS detected language (en-US).
+[2019.07.29-00.28.54:268][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.29-00.28.54:268][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2019.07.29-00.28.54:268][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2019.07.29-00.28.54:268][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000014 seconds
+[2019.07.29-00.28.54:268][  0]CrashReportClientLog: CrashReportClientVersion=1.0
+[2019.07.29-00.28.54:268][  0]CrashReportClientLog: CrashReportReceiver disabled
+[2019.07.29-00.28.54:268][  0]CrashReportClientLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2019.07.29-00.28.54:269][  0]LogInit: Initializing SDL.
+[2019.07.29-00.28.54:341][  0]LogInit: Initialized SDL 2.0.8 revision: 11184 (hg-12121:4358e537000a with EpicExtensions) (compiled against 2.0.8)
+[2019.07.29-00.28.54:342][  0]LogInit: Using SDL video driver 'x11'
+[2019.07.29-00.28.54:346][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.29-00.28.54:346][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.29-00.28.54:346][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.29-00.28.54:347][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2019.07.29-00.28.54:347][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2019.07.29-00.28.54:355][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2019.07.29-00.28.54:440][  0]CrashReportClientLog: Initial state = Unknown UploadState value
+[2019.07.29-00.28.54:440][  0]CrashReportClientLog: Initial state = Unknown UploadState value
+[2019.07.29-00.28.54:447][  0]LogLinux: Scale at X=67.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.29-00.28.54:447][  0]LogLinux: Scale at X=618.500000, Y=256.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.29-00.28.54:447][  0]LogLinux: Scale at X=993.500000, Y=553.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.29-00.28.54:469][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2019.07.29-00.28.54:476][  0]LogSlate: Took 0.000050 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.29-00.28.54:478][  0]LogSlate: Took 0.000048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.29-00.28.54:483][  0]LogSlate: Took 0.000064 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.29-00.28.55:594][  0]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.29-00.28.55:595][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2019.07.29-00.29.02:807][  0]CrashReportClientLog: Got 5 pending files to upload from ''
+[2019.07.29-00.29.02:807][  0]CrashReportClientLog: State change from Ready to SendingFiles
+[2019.07.29-00.29.02:807][  0]CrashReportClientLog: CompressAndSendData have 5 pending files
+[2019.07.29-00.29.02:807][  0]CrashReportClientLog: CompressAndSendData compressing 2987 bytes ('/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Crashes/crashinfo-Sim__RWS-pid-25403-15A2969B08D7139A359154A2DF402FED/Diagnostics.txt')
+[2019.07.29-00.29.02:807][  0]CrashReportClientLog: CompressAndSendData compressing 4 bytes ('/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Crashes/crashinfo-Sim__RWS-pid-25403-15A2969B08D7139A359154A2DF402FED/minidump.dmp')
+[2019.07.29-00.29.02:807][  0]CrashReportClientLog: CompressAndSendData compressing 232896 bytes ('/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Crashes/crashinfo-Sim__RWS-pid-25403-15A2969B08D7139A359154A2DF402FED/Sim__RWS.log')
+[2019.07.29-00.29.02:807][  0]CrashReportClientLog: CompressAndSendData compressing 19162 bytes ('/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Crashes/crashinfo-Sim__RWS-pid-25403-15A2969B08D7139A359154A2DF402FED/CrashContext.runtime-xml')
+[2019.07.29-00.29.02:807][  0]CrashReportClientLog: CompressAndSendData compressing 108 bytes ('/home/papa/Documents/Unreal Projects/Sim__RWS/Saved/Crashes/crashinfo-Sim__RWS-pid-25403-15A2969B08D7139A359154A2DF402FED/CrashReportClient.ini')
+[2019.07.29-00.29.02:831][  0]LogInit: Using libcurl 7.48.0-DEV
+[2019.07.29-00.29.02:831][  0]LogInit:  - built for x86_64-unknown-linux-gnu
+[2019.07.29-00.29.02:831][  0]LogInit:  - supports SSL with OpenSSL/1.0.2h
+[2019.07.29-00.29.02:831][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+[2019.07.29-00.29.02:831][  0]LogInit:  - other features:
+[2019.07.29-00.29.02:831][  0]LogInit:      CURL_VERSION_SSL
+[2019.07.29-00.29.02:831][  0]LogInit:      CURL_VERSION_LIBZ
+[2019.07.29-00.29.02:831][  0]LogInit:      CURL_VERSION_IPV6
+[2019.07.29-00.29.02:831][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2019.07.29-00.29.02:831][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2019.07.29-00.29.02:831][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+[2019.07.29-00.29.02:831][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2019.07.29-00.29.02:831][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+[2019.07.29-00.29.02:831][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2019.07.29-00.29.02:831][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2019.07.29-00.29.02:831][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+[2019.07.29-00.29.02:831][  0]LogInit:  - LocalHostAddr = Default
+[2019.07.29-00.29.02:831][  0]LogInit:  - BufferSize = 65536
+[2019.07.29-00.29.02:831][  0]CrashReportClientLog: Sending HTTP request: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=CrashReporter&AppVersion=4.21.2-0%2B%2B%2BUE4%2BRelease-4.21&AppEnvironment=Release&UploadType=crashreports&UserID=00027cec08d71324365e7c3c2d5f77f0%7C%7C6102ecf329574982b842cc840699a3e3
+[2019.07.29-00.29.02:974][  0]CrashReportClientLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=1
+[2019.07.29-00.29.02:974][  0]CrashReportClientLog: State change from SendingFiles to SendingFiles
+[2019.07.29-00.29.02:974][  0]CrashReportClientLog: All uploads done
+[2019.07.29-00.29.02:974][  0]CrashReportClientLog: State change from SendingFiles to Finished
+[2019.07.29-00.29.03:809][  0]LogCore: FUnixPlatformMisc::RequestExit(0)
+[2019.07.29-00.29.03:809][  0]LogGenericPlatformMisc: FPlatformMisc::RequestExit(0)
+[2019.07.29-00.29.03:842][  0]LogSlate: Request Window '' being destroyed
+[2019.07.29-00.29.03:845][  0]LogSlate: Request Window 'Unreal Engine 4 Crash Reporter' being destroyed
+[2019.07.29-00.29.03:845][  0]LogSlate: Window 'Unreal Engine 4 Crash Reporter' being destroyed
+[2019.07.29-00.29.03:852][  0]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.29-00.29.03:852][  0]LogExit: Preparing to exit.
+[2019.07.29-00.29.03:852][  0]LogExit: Object subsystem successfully closed.
+[2019.07.29-00.29.03:853][  0]LogModuleManager: Shutting down and abandoning module HTTP (14)
+[2019.07.29-00.29.03:881][  0]LogModuleManager: Shutting down and abandoning module SSL (13)
+[2019.07.29-00.29.03:882][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (10)
+[2019.07.29-00.29.03:882][  0]LogModuleManager: Shutting down and abandoning module InputCore (8)
+[2019.07.29-00.29.03:882][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2019.07.29-00.29.03:882][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.07.29-00.29.03:882][  0]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.07.29-00.29.03:882][  0]LogExit: Exiting.
+[2019.07.29-00.29.03:882][  0]LogInit: Tearing down SDL.
+[2019.07.29-00.29.03:890][  0]Log file closed, 07/28/19 20:29:03

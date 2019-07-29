@@ -1,0 +1,12 @@
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/AudioCaptureProtocol.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/CompositionGraphCaptureProtocol.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/FrameGrabberProtocol.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/ImageSequenceProtocol.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/UserDefinedCaptureProtocol.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/VideoCaptureProtocol.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/IMovieSceneCapture.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/LevelCapture.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/MovieSceneCapture.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/MovieSceneCaptureEnvironment.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/MovieSceneCaptureProtocolBase.h
+/home/papa/Desktop/unreal/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/MovieSceneCaptureSettings.h

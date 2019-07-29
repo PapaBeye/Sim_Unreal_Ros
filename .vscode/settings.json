@@ -1,0 +1,11 @@
+{
+	"files.exclude": {
+		"/home/papa/Documents/Unreal Projects/Sim__RWS/.idea": true,
+		"/home/papa/Documents/Unreal Projects/Sim__RWS/.kdev4": true,
+		"/home/papa/Documents/Unreal Projects/Sim__RWS/.vscode": true,
+		"/home/papa/Documents/Unreal Projects/Sim__RWS/Content": true,
+		"/home/papa/Documents/Unreal Projects/Sim__RWS/DerivedDataCache": true,
+		"/home/papa/Documents/Unreal Projects/Sim__RWS/Intermediate": true,
+		"/home/papa/Documents/Unreal Projects/Sim__RWS/Saved": true
+	}
+}
